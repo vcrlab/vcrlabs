@@ -1,0 +1,2541 @@
+{
+  "domain": "superset",
+  "locale_data": {
+    "superset": {
+      "": {
+        "domain": "superset",
+        "plural_forms": "nplurals=2; plural=(n != 1)",
+        "lang": "en"
+      },
+      "Home": ["Trang chủ"],
+      "Annotation Layers": ["Chú thích"],
+      "Manage": ["Quản lý"],
+      "Databases": ["Cơ sở dữ liệu"],
+      "Data": ["Dữ liệu"],
+      "Datasets": ["Tập dữ liệu"],
+      "Charts": ["Biểu đồ"],
+      "Dashboards": ["Tổng quan"],
+      "Plugins": ["Các plugin"],
+      "Mẫu CSS": [""],
+      "Row level security": ["Bảo mật hàng dữ liệu"],
+      "Security": ["Bảo mật"],
+      "Import Dashboards": ["Nhập các dashboard"],
+      "SQL Editor": ["Trình soạn thảo SQL"],
+      "SQL Lab": ["Kiểm tra SQL"],
+      "Saved Queries": ["Truy vấn đã lưu"],
+      "Query History": ["Lịch sử truy vấn"],
+      "Upload a CSV": ["Tải lên file CSV"],
+      "Upload Excel": ["Tải lên file Excel"],
+      "Action Log": ["Nhật ký thao tác"],
+      "Dashboard Emails": ["Tổng quan email"],
+      "Chart Email Schedules": ["Lập lịch biểu đồ về email"],
+      "Alerts": ["Cảnh báo"],
+      "Alerts & Reports": ["Cảnh báo và Báo cáo"],
+      "Access requests": ["Yêu cầu truy cập"],
+      "Druid Datasources": ["Druid Datasources"],
+      "Druid Clusters": ["Druid Clusters"],
+      "Scan New Datasources": ["Quét nguồn dữ liệu mới"],
+      "Refresh Druid Metadata": ["Làm mới Druid Metadata"],
+      "Issue 1000 - The datasource is too large to query.": ["Nguồn dữ liệu quá lớn để có thể truy vấn."],
+      "Issue 1001 - The database is under an unusual load.": ["Cơ sở dữ liệu đang chịu tải bất thường."],
+      "Issue 1002 - The database returned an unexpected error.": ["Cơ sở dữ liệu trả về một lỗi không mong muốn."],
+      "Issue 1003 - There is a syntax error in the SQL query. Perhaps there was a misspelling or a typo.": [
+        "Có một lỗi cú pháp trong truy vấn SQL. Có lẽ đã có một lỗi chính tả hoặc một ký tự không hợp lệ."
+      ],
+      "Issue 1004 - The column was deleted or renamed in the database.": ["Cột đã bị xóa hoặc đổi tên trong cơ sở dữ liệu"],
+      "Issue 1005 - The table was deleted or renamed in the database.": ["Bảng đã bị xóa hoặc đổi tên trong cơ sở dữ liệu."],
+      "Issue 1006 - One or more parameters specified in the query are missing.": [
+        "Thiếu một hoặc nhiều tham số được chỉ định trong truy vấn."
+      ],
+      "Invalid certificate": ["Chứng chỉ không hợp lệ"],
+      "Unsafe return type for function %(func)s: %(value_type)s": ["Loại dữ liệu trả về không an toàn cho function %(func)s: %(value_type)s"],
+      "Unsupported return value for method %(name)s": ["Giá trị trả về không được hỗ trợ cho phương thức %(name)s"],
+      "Unsafe template value for key %(key)s: %(value_type)s": ["Giá trị mẫu không an toàn cho khóa %(key)s: %(value_type)s"],
+      "Unsupported template value for key %(key)s": ["Giá trị mẫu không được hỗ trợ cho khóa %(key)s"],
+      "Only `SELECT` statements are allowed against this database": ["Chỉ cho phép câu lệnh `SELECT` đối với cơ sở dữ liệu này"],
+      "CTAS (create table as select) can only be run with a query where the last statement is a SELECT. Please make sure your query has a SELECT as its last statement. Then, try running your query again.": [
+        "CTAS (create table as select) chỉ có thể được chạy với truy vấn trong đó câu lệnh cuối cùng là SELECT. Vui lòng đảm bảo rằng truy vấn của bạn có SELECT làm câu lệnh cuối cùng. Sau đó, hãy thử chạy lại truy vấn của bạn."
+      ],
+      "CVAS (create view as select) can only be run with a query with a single SELECT statement. Please make sure your query has only a SELECT statement. Then, try running your query again.": [
+        "CVAS (create view as select) chỉ có thể chạy với một truy vấn có một câu lệnh SELECT duy nhất. Vui lòng đảm bảo rằng truy vấn của bạn chỉ có một câu lệnh SELECT. Sau đó, hãy thử chạy lại truy vấn của bạn."
+      ],
+      "Viz is missing a datasource": ["Viz thiếu nguồn dữ liệu. Vui lòng chọn nguồn dữ liệu"],
+      "Applied rolling window did not return any data. Please make sure the source query satisfies the minimum periods defined in the rolling window.": [
+        "Rolling window được áp dụng không trả về bất kỳ dữ liệu nào. Vui lòng đảm bảo rằng truy vấn nguồn đáp ứng khoảng thời gian tối thiểu được xác định trong rolling window."
+      ],
+      "From date cannot be larger than to date": ["Ngày bắt đầu không thể lớn hơn ngày kết thúc"],
+      "Cached value not found": ["Không tìm thấy giá trị được lưu trong bộ nhớ cache"],
+      "Columns missing in datasource: %(invalid_columns)s": ["Các cột bị thiếu trong nguồn dữ liệu:: %(invalid_columns)s"],
+      "Table View": ["Xem dạng bảng"],
+      "You cannot use [Columns] in combination with [Group By]/[Metrics]/[Percentage Metrics]. Please choose one or the other.": [
+        "Bạn không thể sử dụng [Cột] kết hợp với [Group By]/[Metrics]/[Percentage Metrics]. Vui lòng chỉ chọn một trong số đó."
+      ],
+      "Pick a granularity in the Time section or uncheck 'Include Time'": ["Chọn mức độ chi tiết trong phần Thời gian hoặc bỏ chọn 'Include Time'"],
+      "Time Table View": ["Xem dạng bảng thời gian"],
+      "Pick at least one metric": ["Chọn ít nhất một chỉ số"],
+      "When using 'Group By' you are limited to use a single metric": ["Khi sử dụng 'Group By', bạn bị giới hạn sử dụng một số liệu duy nhất"],
+      "Pivot Table": ["Pivot Table (Bảng tổng hợp)"],
+      "Please choose at least one 'Group by' field ": ["Vui lòng chọn ít nhất một trường 'Group by'"],
+      "Please choose at least one metric": ["Vui lòng chọn ít nhất một chỉ số"],
+      "Group By' and 'Columns' can't overlap": ["Group By' và 'Cột' không thể chồng lên nhau"],
+      "Treemap": ["Sơ đồ cây (Treemap)"],
+      "Calendar Heatmap": ["Lịch Heatmap"],
+      "Bubble Chart": ["Biểu đồ dạng bong bóng"],
+      "Please use 3 different metric labels": ["Vui lòng sử dụng 3 nhãn chỉ số khác nhau"],
+      "Pick a metric for x, y and size": ["Chọn một chỉ số cho x, y và size"],
+      "Bullet Chart": ["Biểu đồ dạng dấu đầu dòng"],
+      "Pick a metric to display": ["Chọn một chỉ số để hiển thị"],
+      "Big Number with Trendline": ["Số lớn với Trendline"],
+      "Pick a metric!": ["Chọn một chỉ số!"],
+      "Big Number": ["Số lớn"],
+      "Time Series - Line Chart": ["Chuỗi thời gian - Biểu đồ đường"],
+      "Pick a time granularity for your time series": ["Chọn mức độ chi tiết của thời gian cho chuỗi thời gian của bạn"],
+      "An enclosed time range (both start and end) must be specified when using a Time Comparison.": [
+        "Phải chỉ định phạm vi thời gian kèm theo (cả bắt đầu và kết thúc) khi sử dụng So sánh thời gian."
+      ],
+      "Time Series - Multiple Line Charts": ["Chuỗi thời gian - Biểu đồ nhiều đường"],
+      "Time Series - Dual Axis Line Chart": ["Chuỗi thời gian - Biểu đồ đường trục kép"],
+      "Pick a metric for left axis!": ["Chọn một số liệu cho trục bên trái!"],
+      "Pick a metric for right axis!": ["Chọn một số liệu cho trục bên phải!"],
+      "Please choose different metrics on left and right axis": ["Vui lòng chọn các số liệu khác nhau trên trục trái và trục phải"],
+      "Time Series - Bar Chart": ["Chuỗi thời gian - Biểu đồ cột"],
+      "Time Series - Period Pivot": ["Chuỗi thời gian - Xoay vòng thời gian"],
+      "Time Series - Percent Change": ["Chuỗi thời gian - Phần trăm thay đổi"],
+      "Time Series - Stacked": ["Chuỗi thời gian - Xếp chồng lên nhau"],
+      "Histogram": ["Biểu đồ Histogram"],
+      "Must have at least one numeric column specified": ["Phải có ít nhất một cột số được chỉ định"],
+      "Distribution - Bar Chart": ["Phân phối - Biểu đồ cột"],
+      "Can't have overlap between Series and Breakdowns": ["Không thể có sự trùng lặp giữa Series và Breakdowns"],
+      "Pick at least one field for [Series]": ["Chọn ít nhất một trường cho [Series]"],
+      "Sunburst": ["Tia nắng"],
+      "Sankey": ["Sankey"],
+      "Pick exactly 2 columns as [Source / Target]": ["Chọn chính xác 2 cột làm [Source / Target]"],
+      "There's a loop in your Sankey, please provide a tree. Here's a faulty link: {}": [
+        "Có một vòng lặp trong Sankey của bạn. Đây là một liên kết bị lỗi: {}"
+      ],
+      "Directed Force Layout": ["Directed Force Layout"],
+      "Pick exactly 2 columns to 'Group By'": ["Chọn chính xác 2 cột ở mục 'Group By'"],
+      "Country Map": ["Biểu đồ theo quốc gia"],
+      "World Map": ["Biểu đồ theo châu lục"],
+      "Filters": ["Các bộ lọc"],
+      "Invalid filter configuration, please select a column": ["Cấu hình bộ lọc không hợp lệ, vui lòng chọn một cột"],
+      "Parallel Coordinates": ["Tọa độ song song"],
+      "Heatmap": ["Heatmap"],
+      "Horizon Charts": ["Biểu đồ chân trời"],
+      "Mapbox": ["Mapbox"],
+      "[Longitude] and [Latitude] must be set": ["[Kinh độ] và [Vĩ độ] phải được đặt"],
+      "Must have a [Group By] column to have 'count' as the [Label]": ["Phải có cột ở mục [Group By] để việc đếm có một [Label]"],
+      "Choice of [Label] must be present in [Group By]": ["Lựa chọn [Label] phải có trong [Group By]"],
+      "Choice of [Point Radius] must be present in [Group By]": ["Lựa chọn [Point Radius] phải có trong [Group By]"],
+      "[Longitude] and [Latitude] columns must be present in [Group By]": ["Các cột [Kinh độ] và [Vĩ độ] phải có trong [Nhóm theo]"],
+      "Deck.gl - Multiple Layers": ["Deck.gl - Nhiều lớp"],
+      "Bad spatial key": ["Key không phù hợp"],
+      "Invalid spatial point encountered: %s": ["Đã gặp phải điểm không hợp lệ: %s"],
+      "Encountered invalid NULL spatial entry,                                        please consider filtering those out": [
+        "Gặp phải mục nhập NULL không hợp lệ"
+      ],
+      "Deck.gl - Scatter plot": ["Deck.gl - Biểu đồ phân tán"],
+      "Deck.gl - Screen Grid": ["Deck.gl - Màn hình lưới"],
+      "Deck.gl - 3D Grid": ["Deck.gl - Lưới 3D"],
+      "Deck.gl - Paths": ["Deck.gl - Đường dẫn"],
+      "Deck.gl - Polygon": ["Deck.gl - Đa giác"],
+      "Deck.gl - 3D HEX": ["Deck.gl - 3D HEX"],
+      "Deck.gl - GeoJSON": ["Deck.gl - GeoJSON"],
+      "Deck.gl - Arc": ["Deck.gl - Arc"],
+      "Event flow": ["Luồng sự kiện"],
+      "Time Series - Paired t-test": ["Chuỗi thời gian - t-test được ghép nối"],
+      "Time Series - Nightingale Rose Chart": ["Biểu đồ hoa hồng Nightingale"],
+      "Partition Diagram": ["Sơ đồ phân vùng"],
+      "Choose either fields to [Group By] and [Metrics] and/or [Percentage Metrics], or [Columns], not both": [
+        "Chọn một trong hai trường cho mục [Group By] và [Metrics] và/hoặc [Percentage Metrics] hoặc [Cột], không chọn cả hai"
+      ],
+      "Box Plot": ["Box Plot"],
+      "Distribution - NVD3 - Pie Chart": ["Phân phối - NVD3 - Biểu đồ tròn"],
+      "iFrame": ["iFrame"],
+      "Deleted %(num)d annotation layer": [
+        "Đã xóa %(num)d lớp chú thích",
+        "Đã xóa %(num)d lớp chú thích"
+      ],
+      "All Text": ["Tất cả văn bản"],
+      "Deleted %(num)d annotation": ["Đã xóa %(num)d chú thích", "Đã xóa %(num)d chú thích"],
+      "End date must be after start date": ["Ngày kết thúc phải sau ngày bắt đầu"],
+      "Short description must be unique for this layer": ["Mô tả ngắn phải là duy nhất cho layer này"],
+      "Annotations could not be deleted.": ["Không thể xóa chú thích."],
+      "Annotation not found.": ["Không tìm thấy chú thích."],
+      "Annotation parameters are invalid.": ["Thông số chú thích không hợp lệ."],
+      "Annotation could not be created.": ["Không thể tạo chú thích."],
+      "Annotation could not be updated.": ["Không thể cập nhật chú thích."],
+      "Annotation delete failed.": ["Xóa chú thích không thành công."],
+      "Annotation layer parameters are invalid.": ["Thông số layer chú thích không hợp lệ."],
+      "Annotation layer could not be deleted.": ["Không thể xóa layer chú thích."],
+      "Annotation layer could not be created.": ["Không thể tạo layer chú thích."],
+      "Annotation layer could not be updated.": ["Không thể cập nhật layer chú thích."],
+      "Annotation layer not found.": ["Không tìm thấy layer chú thích."],
+      "Annotation layer delete failed.": ["Xóa layer chú thích không thành công."],
+      "Annotation layer has associated annotations.": ["Layer chú thích có các chú thích liên quan."],
+      "Name must be unique": ["Tên phải là duy nhất"],
+      "Deleted %(num)d chart": ["Đã xóa %(num)d biểu đồ", "Đã xóa %(num)d biểu đồ"],
+      "Request is not JSON": ["Đã xóa %(num)d biểu đồ"],
+      "Request is incorrect: %(error)s": ["Yêu cầu không chính xác: %(error)s"],
+      "`confidence_interval` must be between 0 and 1 (exclusive)": ["`confidence_interval` phải nằm trong khoảng từ 0 đến 1 (loại trừ)"],
+      "lower percentile must be greater than 0 and less than 100. Must be lower than upper percentile.": [
+        "Giá trị phần trăm dưới phải lớn hơn 0 và nhỏ hơn 100. Giá trị dưới phải nhỏ hơn giá trị trên."
+      ],
+      "upper percentile must be greater than 0 and less than 100. Must be higher than lower percentile.": [
+        "Giá trị phần trăm trên phải lớn hơn 0 và nhỏ hơn 100. Giá trị trên phải lớn hơn giá trị dưới."
+      ],
+      "`width` must be greater or equal to 0": ["`width` phải lớn hơn hoặc bằng 0"],
+      "`row_limit` must be greater than or equal to 1": ["`row_limit` phải lớn hơn hoặc bằng 1"],
+      "`row_offset` must be greater than or equal to 0": ["`row_offset` phải lớn hơn hoặc bằng 0"],
+      "There are associated alerts or reports: %s,": ["Có các cảnh báo hoặc báo cáo liên quan: %s,"],
+      "Database does not exist": ["Cơ sở dữ liệu không tồn tại"],
+      "Dashboards do not exist": ["Trang tổng quan không tồn tại"],
+      "Datasource type is required when datasource_id is given": ["Loại nguồn dữ liệu là bắt buộc khi datasource_id được cung cấp"],
+      "Chart parameters are invalid.": ["Tham số biểu đồ không hợp lệ."],
+      "Chart could not be created.": [""],
+      "Chart could not be updated.": ["Không thể tạo biểu đồ."],
+      "Chart could not be deleted.": ["Không thể xóa biểu đồ."],
+      "There are associated alerts or reports": ["Có cảnh báo hoặc báo cáo liên quan"],
+      "Changing this chart is forbidden": ["Thay đổi biểu đồ này không được phép"],
+      "Charts could not be deleted.": ["Không thể xóa biểu đồ."],
+      "Import chart failed for an unknown reason": ["Nhập biểu đồ không thành công vì một lý do không xác định"],
+      "Owners are invalid": ["Chủ sở hữu không hợp lệ"],
+      "Dataset does not exist": ["Bộ dữ liệu không tồn tại"],
+      "`operation` property of post processing object undefined": ["Thuộc tính `hoạt động` của đối tượng xử lý hậu kỳ không xác định"],
+      "Unsupported post processing operation: %(operation)s": ["Thao tác xử lý bài đăng không được hỗ trợ: %(operation)s"],
+      "Adding new datasource [{}]": ["Thêm nguồn dữ liệu mới [{}]"],
+      "Refreshing datasource [{}]": ["Làm mới nguồn dữ liệu [{}]"],
+      "Metric(s) {} must be aggregations.": ["Chỉ số {} phải là tập hợp."],
+      "Unsupported extraction function: ": ["Chức năng trích xuất không được hỗ trợ: "],
+      "Columns": ["Các cột"],
+      "Show Druid Column": ["Hiển thị cột Druid"],
+      "Add Druid Column": ["Thêm cột Druid"],
+      "Edit Druid Column": ["Chỉnh sửa cột Druid"],
+      "Column": ["Cột"],
+      "Type": ["Kiểu"],
+      "Datasource": ["Nguồn dữ liệu"],
+      "Groupable": ["Có thể nhóm"],
+      "Filterable": ["Có thể lọc"],
+      "Whether this column is exposed in the `Filters` section of the explore view.": [
+        "Cột này có hiển thị trong phần `Filters` của chế độ xem khám phá."
+      ],
+      "Metrics": ["Các số liệu"],
+      "Show Druid Metric": ["Hiển thị số liệu Druid"],
+      "Add Druid Metric": ["Thêm số liệu Druid"],
+      "Edit Druid Metric": ["Chỉnh sửa số liệu Druid"],
+      "Metric": ["Số liệu"],
+      "Description": ["Mô tả"],
+      "Verbose Name": ["Tên chi tiết"],
+      "JSON": ["JSON"],
+      "Druid Datasource": ["Nguồn dữ liệu Druid"],
+      "Warning Message": ["Tin nhắn cảnh báo"],
+      "Show Druid Cluster": ["Hiển thị Cluster Druid"],
+      "Add Druid Cluster": ["Thêm Cluster Druid"],
+      "Edit Druid Cluster": ["Chỉnh sửa Cluster Druid"],
+      "Cluster Name": ["Tên Cluster"],
+      "Broker Host": ["Địa chỉ Broker"],
+      "Broker Port": ["Cổng kết nối Broker"],
+      "Broker Username": ["Username Broker"],
+      "Broker Password": ["Mật khẩu Broker"],
+      "Broker Endpoint": ["Broker Endpoint"],
+      "Cache Timeout": ["Hết thời gian chờ bộ đệm"],
+      "Metadata Last Refreshed": ["Metadata được làm mới lần cuối"],
+      "Duration (in seconds) of the caching timeout for this cluster. A timeout of 0 indicates that the cache never expires. Note this defaults to the global timeout if undefined.": [
+        "Khoảng thời gian (tính bằng giây) của thời gian chờ lưu vào bộ nhớ đệm cho cluster này. Thời gian chờ bằng 0 cho biết bộ đệm không bao giờ hết hạn. Lưu ý rằng điều này mặc định là thời gian chờ toàn cục nếu không được xác định."
+      ],
+      "Druid supports basic authentication. See [auth](http://druid.io/docs/latest/design/auth.html) and druid-basic-security extension": [
+        "Druid - hỗ trợ xác thực cơ bản. Xem [auth](http://druid.io/docs/latest/design/auth.html) và tiện ích mở rộng druid-basic-security"
+      ],
+      "Show Druid Datasource": ["Hiển thị nguồn dữ liệu Druid"],
+      "Add Druid Datasource": ["Thêm nguồn dữ liệu Druid"],
+      "Edit Druid Datasource": ["Chỉnh sửa nguồn dữ liệu Druid"],
+      "The list of charts associated with this table. By altering this datasource, you may change how these associated charts behave. Also note that charts need to point to a datasource, so this form will fail at saving if removing charts from a datasource. If you want to change the datasource for a chart, overwrite the chart from the 'explore view'": [
+        "Danh sách các biểu đồ được liên kết với bảng này. Bằng cách thay đổi nguồn dữ liệu này, bạn có thể thay đổi cách các biểu đồ được liên kết này hoạt động. Cũng xin lưu ý rằng các biểu đồ cần trỏ đến một nguồn dữ liệu, vì vậy, biểu mẫu này sẽ không lưu được nếu xóa biểu đồ khỏi nguồn dữ liệu. Nếu bạn muốn thay đổi nguồn dữ liệu cho biểu đồ, hãy ghi đè biểu đồ từ 'explore view'"
+      ],
+      "Timezone offset (in hours) for this datasource": ["Độ chênh lệch múi giờ (tính bằng giờ) cho nguồn dữ liệu này"],
+      "Time expression to use as a predicate when retrieving distinct values to populate the filter component. Only applies when `Enable Filter Select` is on. If you enter `7 days ago`, the distinct list of values in the filter will be populated based on the distinct value over the past week": [
+        "Biểu thức thời gian để sử dụng làm vị ngữ khi truy xuất các giá trị riêng biệt để điền vào thành phần bộ lọc. Chỉ áp dụng khi `Enable Filter Select` được bật. Nếu bạn nhập `7 days ago`, thì danh sách giá trị riêng biệt trong bộ lọc sẽ được điền dựa trên giá trị riêng biệt trong tuần qua"
+      ],
+      "Whether to populate the filter's dropdown in the explore view's filter section with a list of distinct values fetched from the backend on the fly": [
+        "Có điền danh sách thả xuống của bộ lọc vào phần bộ lọc của chế độ xem explore view với danh sách các giá trị riêng biệt được tìm nạp từ chương trình phụ trợ một cách nhanh chóng hay không"
+      ],
+      "Redirects to this endpoint when clicking on the datasource from the datasource list": [
+        "Chuyển hướng đến điểm cuối này khi nhấp vào nguồn dữ liệu từ danh sách nguồn dữ liệu"
+      ],
+      "Duration (in seconds) of the caching timeout for this datasource. A timeout of 0 indicates that the cache never expires. Note this defaults to the cluster timeout if undefined.": [
+        "Khoảng thời gian (tính bằng giây) của thời gian chờ lưu vào bộ nhớ đệm cho nguồn dữ liệu này. Thời gian chờ bằng 0 cho biết bộ đệm không bao giờ hết hạn. Lưu ý rằng điều này mặc định là thời gian chờ của cụm nếu không được xác định."
+      ],
+      "Associated Charts": ["Biểu đồ liên quan"],
+      "Data Source": ["Nguồn dữ liệu"],
+      "Cluster": ["Cluster"],
+      "Owners": ["Những chủ sở hữu"],
+      "Is Hidden": ["Bị ẩn"],
+      "Enable Filter Select": ["Bật bộ lọc Chọn"],
+      "Default Endpoint": ["Endpoint mặc định"],
+      "Time Offset": ["Độ chênh lệch giờ"],
+      "Datasource Name": ["Tên nguồn dữ liệu"],
+      "Fetch Values From": ["Lấy giá trị từ"],
+      "Changed By": ["Thay đổi bởi"],
+      "Modified": ["Đã sửa đổi"],
+      "Refreshed metadata from cluster [{}]": ["Đã làm mới metadata từ cụm [{}]"],
+      "Only `SELECT` statements are allowed": ["Chỉ cho phép câu lệnh `SELECT`"],
+      "Only single queries supported": ["Chỉ các truy vấn duy nhất được hỗ trợ"],
+      "Error in jinja expression in fetch values predicate: %(msg)s": ["Lỗi trong biểu thức jinja trong vị từ giá trị tìm nạp: %(msg)s"],
+      "Error in jinja expression in FROM clause: %(msg)s": ["Lỗi trong biểu thức jinja trong mệnh đề FROM: %(msg)s"],
+      "Virtual dataset query cannot consist of multiple statements": ["Truy vấn tập dữ liệu ảo không thể bao gồm nhiều câu lệnh"],
+      "Virtual dataset query must be read-only": ["Truy vấn tập dữ liệu ảo phải ở dạng chỉ đọc"],
+      "Error in jinja expression in RLS filters: %(msg)s": ["Error in jinja expression in RLS filters: %(msg)s"],
+      "Datetime column not provided as part table configuration and is required by this type of chart": [
+        "Cột ngày giờ không được cung cấp dưới dạng cấu hình bảng thành phần và được yêu cầu bởi loại biểu đồ này"
+      ],
+      "Empty query?": ["Truy vấn trống?"],
+      "Metric '%(metric)s' does not exist": ["Chỉ số '%(metric)s' không tồn tại"],
+      "Invalid filter operation type: %(op)s": ["Loại thao tác bộ lọc không hợp lệ: %(op)s"],
+      "Error in jinja expression in WHERE clause: %(msg)s": ["Lỗi trong biểu thức jinja trong mệnh đề WHERE: %(msg)s"],
+      "Error in jinja expression in HAVING clause: %(msg)s": ["Lỗi trong biểu thức jinja trong mệnh đề HAVING: %(msg)s"],
+      "Show Column": ["Hiển thị cột"],
+      "Add Column": ["Thêm cột"],
+      "Edit Column": ["Chỉnh sửa cột"],
+      "Whether to make this column available as a [Time Granularity] option, column has to be DATETIME or DATETIME-like": [
+        "Dù có cung cấp cột này dưới dạng tùy chọn [Time Granularity] hay không, thì cột phải là DATETIME hoặc DATETIME-like"
+      ],
+      "The data type that was inferred by the database. It may be necessary to input a type manually for expression-defined columns in some cases. In most case users should not need to alter this.": [
+        "Kiểu dữ liệu được suy ra bởi cơ sở dữ liệu. Trong một số trường hợp, có thể cần phải nhập thủ công expression-defined cho các cột được xác định bằng biểu thức. Trong hầu hết các trường hợp, người dùng không cần phải thay đổi điều này."
+      ],
+      "Table": ["Bảng"],
+      "Expression": ["Sự biểu lộ"],
+      "Is temporal": ["Chỉ tạm thời"],
+      "Datetime Format": ["Định dạng ngày giờ"],
+      "Invalid date/timestamp format": [
+        "Định dạng ngày/giờ không hợp lệ"
+      ],
+      "Show Metric": ["Hiển thị số liệu"],
+      "Add Metric": ["Thêm số liệu"],
+      "Edit Metric": ["Chỉnh sửa số liệu"],
+      "SQL Expression": ["Biểu thức SQL"],
+      "D3 Format": ["Định dạng D3"],
+      "Extra": ["Mở rộng"],
+      "Row level security filter": ["Bộ lọc bảo mật cấp hàng dữ liệu"],
+      "Show Row level security filter": ["Hiển thị bộ lọc bảo mật cấp hàng dữ liệu"],
+      "Add Row level security filter": ["Thêm vào Bộ lọc bảo mật cấp hàng dữ liệu"],
+      "Edit Row level security filter": ["Chỉnh sửa Bộ lọc bảo mật cấp hàng dữ liệu"],
+      "Regular filters add where clauses to queries if a user belongs to a role referenced in the filter. Base filters apply filters to all queries except the roles defined in the filter, and can be used to define what users can see if no RLS filters within a filter group apply to them.": [
+        "Bộ lọc thông thường thêm mệnh đề WHERE vào truy vấn nếu người dùng thuộc role được tham chiếu trong bộ lọc. Bộ lọc cơ sở áp dụng bộ lọc cho tất cả các truy vấn ngoại trừ các role được xác định trong bộ lọc và có thể được sử dụng để xác định những gì người dùng có thể xem nếu không có bộ lọc RLS nào trong nhóm bộ lọc áp dụng cho họ."
+      ],
+      "These are the tables this filter will be applied to.": [
+        "Đây là những bảng mà bộ lọc này sẽ được áp dụng."
+      ],
+      "For regular filters, these are the roles this filter will be applied to. For base filters, these are the roles that the filter DOES NOT apply to, e.g. Admin if admin should see all data.": [
+        "Đối với các bộ lọc thông thường, đây là những role mà bộ lọc này sẽ được áp dụng. Đối với bộ lọc cơ sở, đây là những role mà bộ lọc KHÔNG áp dụng, ví dụ: Quản trị viên nếu quản trị viên nên xem tất cả dữ liệu."
+      ],
+      "Filters with the same group key will be ORed together within the group, while different filter groups will be ANDed together. Undefined group keys are treated as unique groups, i.e. are not grouped together. For example, if a table has three filters, of which two are for departments Finance and Marketing (group key = 'department'), and one refers to the region Europe (group key = 'region'), the filter clause would apply the filter (department = 'Finance' OR department = 'Marketing') AND (region = 'Europe').": [
+        "Các bộ lọc có cùng khóa nhóm sẽ được OR cùng nhau trong nhóm, trong khi các nhóm bộ lọc khác nhau sẽ được AND cùng nhau. Các khóa nhóm không xác định được coi là các nhóm duy nhất, tức là không được nhóm lại với nhau. Ví dụ: nếu một bảng có ba bộ lọc, trong đó hai bộ lọc dành cho bộ phận Tài chính và Tiếp thị (group key = 'department') và một bộ lọc đề cập đến khu vực Châu Âu (group key = 'region'), mệnh đề bộ lọc sẽ áp dụng bộ lọc (department = 'Finance' OR department = 'Marketing') AND (region = 'Europe')."
+      ],
+      "This is the condition that will be added to the WHERE clause. For example, to only return rows for a particular client, you might define a regular filter with the clause `client_id = 9`. To display no rows unless a user belongs to a RLS filter role, a base filter can be created with the clause `1 = 0` (always false).": [
+        "Đây là điều kiện sẽ được thêm vào mệnh đề WHERE. Ví dụ: để chỉ trả lại các hàng cho một khách hàng cụ thể, bạn có thể xác định một bộ lọc thông thường với mệnh đề `client_id = 9`. Để không hiển thị hàng trừ khi người dùng thuộc role bộ lọc RLS, bộ lọc cơ sở có thể được tạo bằng mệnh đề `1 = 0` (luôn sai)."
+      ],
+      "Tables": ["Các bảng"],
+      "Roles": ["Roles"],
+      "Clause": ["mệnh đề"],
+      "Creator": ["Người tạo"],
+      "Show Table": ["Hiển thị bảng"],
+      "Import a table definition": ["Nhập định nghĩa bảng"],
+      "Edit Table": ["Chỉnh sửa bảng"],
+      "Name of the table that exists in the source database": [
+        "Tên của bảng tồn tại trong cơ sở dữ liệu nguồn"
+      ],
+      "Schema, as used only in some databases like Postgres, Redshift and DB2": [
+        "Schema, chỉ được sử dụng trong một số cơ sở dữ liệu như Postgres, Redshift và DB2"
+      ],
+      "This fields acts a Superset view, meaning that Superset will run a query against this string as a subquery.": [
+        "Các trường này đóng vai trò là chế độ xem Superset, nghĩa là Superset sẽ chạy truy vấn đối với chuỗi này dưới dạng truy vấn phụ."
+      ],
+      "Predicate applied when fetching distinct value to populate the filter control component. Supports jinja template syntax. Applies only when `Enable Filter Select` is on.": [
+        "Predicate được áp dụng khi tìm nạp giá trị riêng biệt để điền vào thành phần kiểm soát bộ lọc. Hỗ trợ cú pháp mẫu jinja. Chỉ áp dụng khi bật `Enable Filter Select`."
+      ],
+      "Redirects to this endpoint when clicking on the table from the table list": [
+        "Chuyển hướng đến điểm cuối này khi nhấp vào bảng từ danh sách bảng"
+      ],
+      "Whether the table was generated by the 'Visualize' flow in SQL Lab": [
+        "Liệu bảng có được tạo bởi luồng 'Trực quan hóa' trong SQL Lab hay không"
+      ],
+      "A set of parameters that become available in the query using Jinja templating syntax": [
+        "Một tập hợp các tham số có sẵn trong truy vấn bằng cách sử dụng cú pháp tạo khuôn mẫu Jinja"
+      ],
+      "Duration (in seconds) of the caching timeout for this table. A timeout of 0 indicates that the cache never expires. Note this defaults to the database timeout if undefined.": [
+        "Khoảng thời gian (tính bằng giây) của thời gian chờ lưu vào bộ nhớ đệm cho bảng này. Thời gian chờ bằng 0 cho biết bộ đệm không bao giờ hết hạn. Lưu ý điều này mặc định là hết thời gian chờ cơ sở dữ liệu nếu không xác định."
+      ],
+      "Database": ["Cơ sở dữ liệu"],
+      "Last Changed": ["Lần cuối thay đổi"],
+      "Schema": ["Schema"],
+      "Offset": ["Offset"],
+      "Table Name": ["Tên bảng"],
+      "Fetch Values Predicate": ["Tìm nạp giá trị Predicate"],
+      "Main Datetime Column": ["Cột ngày giờ chính"],
+      "SQL Lab View": ["Chế độ xem SQL Lab"],
+      "Template parameters": ["Thông số mẫu"],
+      "The table was created. As part of this two-phase configuration process, you should now click the edit button by the new table to configure it.": [
+        "Bảng đã được tạo. Là một phần của quy trình cấu hình hai giai đoạn, bây giờ bạn nên nhấp vào nút chỉnh sửa cạnh bảng mới để định cấu hình."
+      ],
+      "Refresh Metadata": ["Làm mới Metadata"],
+      "Refresh column metadata": ["Làm mới metadata cột"],
+      "Metadata refreshed for the following table(s): %(tables)s": [
+        "Metadata được làm mới cho (các) bảng sau: %(tables)s"
+      ],
+      "The following tables added new columns: %(tables)s": [
+        "Các bảng sau đã thêm các cột mới: %(tables)s"
+      ],
+      "The following tables removed columns: %(tables)s": [
+        "Các bảng sau đây đã xóa các cột: %(tables)s"
+      ],
+      "The following tables update column metadata: %(tables)s": [
+        "Các bảng sau cập nhật metadata cột: %(tables)s"
+      ],
+      "Unable to refresh metadata for the following table(s): %(tables)s": [
+        "Không thể làm mới metadata cho (các) bảng sau: %(tables)s"
+      ],
+      "Deleted %(num)d css template": [
+        "Đã xóa %(num)d css template",
+        "Đã xóa %(num)d css template"
+      ],
+      "CSS template could not be deleted.": ["Không thể xóa mẫu CSS."],
+      "CSS template not found.": ["Không tìm thấy mẫu CSS."],
+      "Deleted %(num)d dashboard": [
+        "Đã xóa %(num)d trang tổng quan",
+        "Đã xóa %(num)d trang tổng quan"
+      ],
+      "Title or Slug": ["Tiêu đề hoặc Slug"],
+      "Must be unique": ["Phải là duy nhất"],
+      "Dashboard parameters are invalid.": [
+        "Tham số Dashboard không hợp lệ."
+      ],
+      "Dashboard not found.": ["Không tìm thấy Dashboard."],
+      "Dashboard could not be created.": ["Không thể tạo Dashboard."],
+      "Dashboards could not be deleted.": ["Không thể xóa Dashboard."],
+      "Dashboard could not be updated.": ["Không thể cập nhật Dashboard."],
+      "Dashboard could not be deleted.": ["Không thể xóa Dashboard."],
+      "Changing this Dashboard is forbidden": [
+        "Thay đổi Dashboard này bị cấm"
+      ],
+      "Import dashboard failed for an unknown reason": [
+        "Nhập dashboard không thành công vì một lý do không xác định"
+      ],
+      "No data in file": ["Không có dữ liệu trong tệp"],
+      "Table name undefined": ["Tên bảng không xác định"],
+      "Invalid connection string, a valid string usually follows: driver://user:password@database-host/database-name": [
+        "Chuỗi kết nối không hợp lệ, một chuỗi hợp lệ thường theo sau: driver://user:password@database-host/database-name"
+      ],
+      "SQLite database cannot be used as a data source for security reasons.": [
+        "Cơ sở dữ liệu SQLite không thể được sử dụng làm nguồn dữ liệu vì lý do bảo mật."
+      ],
+      "Field cannot be decoded by JSON. %(msg)s": [
+        "Trường không thể được giải mã bằng JSON. %(tin nhắn)s"
+      ],
+      "The metadata_params in Extra field is not configured correctly. The key %(key)s is invalid.": [
+        "Metadata_params trong trường Extra không được định cấu hình chính xác. Khóa %(key)s không hợp lệ."
+      ],
+      "Database parameters are invalid.": ["Tham số cơ sở dữ liệu không hợp lệ."],
+      "A database with the same name already exists": [
+        "Cơ sở dữ liệu có cùng tên đã tồn tại"
+      ],
+      "Field is required": ["Trường dữ liệu bắt buộc"],
+      "Field cannot be decoded by JSON.  %{json_error}s": [
+        "Trường không thể được giải mã bằng JSON. %{json_error}s"
+      ],
+      "The metadata_params in Extra field is not configured correctly. The key %{key}s is invalid.": [
+        "Metadata_params trong trường Extra không được định cấu hình chính xác. Khóa %{key}s không hợp lệ."
+      ],
+      "Database not found.": ["Không tìm thấy cơ sở dữ liệu."],
+      "Database could not be created.": ["Không thể tạo cơ sở dữ liệu."],
+      "Database could not be updated.": ["Không thể cập nhật cơ sở dữ liệu."],
+      "Connection failed, please check your connection settings": [
+        "Kết nối không thành công, vui lòng kiểm tra cài đặt kết nối của bạn"
+      ],
+      "Cannot delete a database that has tables attached": [
+        "Không thể xóa cơ sở dữ liệu có bảng đính kèm"
+      ],
+      "Database could not be deleted.": ["Không thể xóa cơ sở dữ liệu."],
+      "Stopped an unsafe database connection": [
+        "Đã dừng kết nối cơ sở dữ liệu không an toàn"
+      ],
+      "Could not load database driver": [
+        "Không thể tải trình điều khiển cơ sở dữ liệu"
+      ],
+      "Unexpected error occurred, please check your logs for details": [
+        "Đã xảy ra lỗi không mong muốn, vui lòng kiểm tra nhật ký (logs) của bạn để biết chi tiết"
+      ],
+      "Import database failed for an unknown reason": [
+        "Nhập cơ sở dữ liệu không thành công vì một lý do không xác định"
+      ],
+      "Could not load database driver: {}": [
+        "Không thể tải trình điều khiển cơ sở dữ liệu: {}"
+      ],
+      "Deleted %(num)d dataset": [
+        "Đã xóa %(num)d tập dữ liệu",
+        "Đã xóa %(num)d tập dữ liệu"
+      ],
+      "Null or Empty": ["Null hoặc rỗng"],
+      "Database not allowed to change": ["Cơ sở dữ liệu không được phép thay đổi"],
+      "One or more columns do not exist": ["Một hoặc nhiều cột không tồn tại"],
+      "One or more columns are duplicated": ["Một hoặc nhiều cột bị trùng lặp"],
+      "One or more columns already exist": ["Một hoặc nhiều cột đã tồn tại"],
+      "One or more metrics do not exist": ["Một hoặc nhiều chỉ số không tồn tại"],
+      "One or more metrics are duplicated": ["Một hoặc nhiều chỉ số bị trùng lặp"],
+      "One or more metrics already exist": ["Một hoặc nhiều số liệu đã tồn tại"],
+      "Table [%(table_name)s] could not be found, please double check your database connection, schema, and table name": [
+        "Không thể tìm thấy bảng [%(table_name)s], vui lòng kiểm tra lại kết nối cơ sở dữ liệu, schema và tên bảng của bạn"
+      ],
+      "Dataset parameters are invalid.": ["Tham số bộ dữ liệu không hợp lệ."],
+      "Dataset could not be created.": ["Không thể tạo tập dữ liệu."],
+      "Dataset could not be updated.": ["Không thể cập nhật tập dữ liệu."],
+      "Dataset could not be deleted.": ["Không thể xóa tập dữ liệu."],
+      "Dataset(s) could not be bulk deleted.": [
+        "Không thể xóa hàng loạt (các) tập dữ liệu."
+      ],
+      "Changing this dataset is forbidden": ["Thay đổi tập dữ liệu này không được phép"],
+      "Import dataset failed for an unknown reason": [
+        "Nhập tập dữ liệu không thành công vì một lý do không xác định"
+      ],
+      "Unknown Presto Error": ["Lỗi Presto không xác định"],
+      "We can't seem to resolve the column \"%(column_name)s\" at line %(location)s.": [
+        "Có vẻ như chúng tôi không thể giải quyết cột \"%(column_name)s\" tại dòng %(location)s."
+      ],
+      "The table \"%(table_name)s\" does not exist. A valid table must be used to run this query.": [
+        "Bảng \"%(table_name)s\" không tồn tại. Một bảng hợp lệ phải được sử dụng để chạy truy vấn này."
+      ],
+      "Deleted %(num)d saved query": [
+        "Đã xóa %(num)d truy vấn đã lưu",
+        "Đã xóa %(num)d truy vấn đã lưu"
+      ],
+      "Saved queries could not be deleted.": ["Không thể xóa truy vấn đã lưu."],
+      "Saved query not found.": ["Không tìm thấy truy vấn đã lưu."],
+      "Deleted %(num)d report schedule": [
+        "Đã xóa %(num)d lịch trình báo cáo",
+        "Đã xóa %(num)d lịch trình báo cáo"
+      ],
+      "Alert query returned more than one row. %s rows returned": [
+        "Truy vấn cảnh báo trả về nhiều hơn một hàng. %s hàng được trả về"
+      ],
+      "Alert query returned more than one column. %s columns returned": [
+        "Truy vấn cảnh báo trả về nhiều hơn một cột. %s cột được trả lại"
+      ],
+      "Dashboard does not exist": ["Dashboard không tồn tại"],
+      "Chart does not exist": ["Biểu đồ không tồn tại"],
+      "Database is required for alerts": ["Cần có cơ sở dữ liệu để cảnh báo"],
+      "Type is required": ["Loại là bắt buộc"],
+      "Choose a chart or dashboard not both": [
+        "Chọn một biểu đồ hoặc dashboard không phải cả hai"
+      ],
+      "Report Schedule parameters are invalid.": [
+        "Thông số lịch biểu báo cáo không hợp lệ."
+      ],
+      "Report Schedule could not be deleted.": ["Không thể xóa lập lịch báo cáo."],
+      "Report Schedule could not be created.": ["Không thể tạo lập lịch báo cáo."],
+      "Report Schedule could not be updated.": [
+        "Không thể cập nhật lịch trình báo cáo."
+      ],
+      "Report Schedule not found.": ["Không tìm thấy lập lịch báo cáo."],
+      "Report Schedule delete failed.": [
+        "Báo cáo Xóa lập lịch không thành công."
+      ],
+      "Report Schedule log prune failed.": [
+        "Báo cáo Cắt nhật ký lập lịch không thành công."
+      ],
+      "Report Schedule execution failed when generating a screenshot.": [
+        "Báo cáo Thực thi lập lịch không thành công khi tạo ảnh chụp màn hình."
+      ],
+      "Report Schedule execution got an unexpected error.": [
+        "Báo cáo Thực thi lập lịch gặp lỗi không mong muốn."
+      ],
+      "Report Schedule is still working, refusing to re-compute.": [
+        "Báo cáo lập lịch vẫn đang hoạt động, từ chối tính toán lại."
+      ],
+      "Report Schedule reached a working timeout.": [
+        "Lập lịch báo cáo đã hết thời gian chờ làm việc."
+      ],
+      "Alert query returned more than one row.": [
+        "Truy vấn cảnh báo trả về nhiều hơn một hàng."
+      ],
+      "Alert validator config error.": ["Cảnh báo lỗi cấu hình trình xác thực."],
+      "Alert query returned more than one column.": [
+        "Truy vấn cảnh báo trả về nhiều hơn một cột."
+      ],
+      "Alert query returned a non-number value.": [
+        "Truy vấn cảnh báo trả về một giá trị không phải là số."
+      ],
+      "Alert found an error while executing a query.": [
+        "Cảnh báo đã tìm thấy lỗi khi thực hiện truy vấn."
+      ],
+      "Alert fired during grace period.": [
+        "Cảnh báo được kích hoạt trong thời gian gia hạn."
+      ],
+      "Alert ended grace period.": ["Thông báo kết thúc thời gian gia hạn."],
+      "Alert on grace period": ["Cảnh báo về thời gian gia hạn"],
+      "Report Schedule sellenium user not found": [
+        "Lập lịch báo cáo người dùng sellenium không tìm thấy"
+      ],
+      "Report Schedule state not found": [
+        "Không tìm thấy trạng thái Lập lịch báo cáo"
+      ],
+      "Report schedule unexpected error": [
+        "Lập lịch báo cáo lỗi không mong muốn"
+      ],
+      "Changing this report is forbidden": ["Thay đổi báo cáo này bị cấm"],
+      "An error occurred while pruning logs ": [
+        "Đã xảy ra lỗi khi cắt tỉa nhật ký"
+      ],
+      "\n            <b><a href=\"%(url)s\">Explore in Superset</a></b><p></p>\n            <img src=\"cid:%(msgid)s\">\n            ": [
+        "<b><a href=\"%(url)s\">Khám phá trong Superset</a></b><p></p>\n            <img src=\"cid:%(msgid)s\">"
+      ],
+      "%(prefix)s %(title)s": ["%(prefix)s %(title)s"],
+      "\n            *%(name)s*\n\n            <%(url)s|Explore in Superset>\n            ": [
+        "*%(name)s*\n\n            <%(url)s|Khám phá trong Superset>"
+      ],
+      "\n        *%(name)s*\n\n        <%(url)s|Explore in Superset>\n        ": [
+        "*%(name)s*\n\n        <%(url)s|Khám phá trong Superset>"
+      ],
+      "<b><a href=\"%(url)s\">Explore in Superset</a></b><p></p>": [
+        "<b><a href=\"%(url)s\">Khám phá trong Superset</a></b><p></p>"
+      ],
+      "%(name)s.csv": ["%(name)s.csv"],
+      "\n        *%(slice_name)s*\n\n        <%(slice_url_user_friendly)s|Explore in Superset>\n        ": [
+        "*%(slice_name)s*\n\n        <%(slice_url_user_friendly)s|Khám phá trong Superset>"
+      ],
+      "[Alert] %(label)s": ["[Cảnh báo] %(nhãn)s"],
+      "New": ["Mới"],
+      "SQL Query": ["Truy vấn SQL"],
+      "Chart": ["Đồ thị"],
+      "Dashboard": ["bảng điều khiển"],
+      "Profile": ["Hồ sơ"],
+      "Info": ["Thông tin"],
+      "Logout": ["Đăng xuất"],
+      "Login": ["Đăng nhập"],
+      "Record Count": ["Kỷ lục Đếm"],
+      "No records found": ["Không có dữ liệu được tìm thấy"],
+      "Filter List": ["Danh sách bộ lọc"],
+      "Search": ["Tìm kiếm"],
+      "Refresh": ["Làm cho khỏe lại"],
+      "Import dashboards": ["Nhập trang tổng quan"],
+      "Import Dashboard(s)": ["Nhập (các) Bảng điều khiển"],
+      "File": ["Tài liệu"],
+      "Choose File": ["Chọn tập tin"],
+      "Upload": ["Tải lên"],
+      "No Access!": ["Không truy cập!"],
+      "You do not have permissions to access the datasource(s): %(name)s.": [
+        "Bạn không có quyền truy cập (các) nguồn dữ liệu: %(name)s."
+      ],
+      "Request Permissions": ["Yêu cầu quyền"],
+      "Cancel": ["Hủy bỏ"],
+      "Use the edit buttom to change this field": [
+        "Sử dụng nút chỉnh sửa để thay đổi trường này"
+      ],
+      "Test Connection": ["Kiểm tra kết nối"],
+      "[Superset] Access to the datasource %(name)s was granted": [
+        "[Superset] Đã cấp quyền truy cập vào nguồn dữ liệu %(name)s"
+      ],
+      "Unable to find such a holiday: [{}]": [
+        "Không thể tìm thấy ngày lễ như vậy: [{}]"
+      ],
+      "Referenced columns not available in DataFrame.": [
+        "Các cột được tham chiếu không có sẵn trong DataFrame."
+      ],
+      "Column referenced by aggregate is undefined: %(column)s": [
+        "Cột được tham chiếu bởi tổng hợp không được xác định: %(column)s"
+      ],
+      "Operator undefined for aggregator: %(name)s": [
+        "Toán tử chưa được xác định cho trình tổng hợp: %(name)s"
+      ],
+      "Invalid numpy function: %(operator)s": [
+        "Hàm numpy không hợp lệ: %(operator)s"
+      ],
+      "Pivot operation requires at least one index": [
+        "Thao tác xoay vòng yêu cầu ít nhất một chỉ mục"
+      ],
+      "Pivot operation must include at least one aggregate": [
+        "Thao tác xoay vòng phải bao gồm ít nhất một tập hợp"
+      ],
+      "Undefined window for rolling operation": [
+        "Cửa sổ không xác định cho hoạt động lăn"
+      ],
+      "Invalid rolling_type: %(type)s": ["Rolling_type không hợp lệ: %(type)s"],
+      "Invalid options for %(rolling_type)s: %(options)s": [
+        "Tùy chọn không hợp lệ cho %(rolling_type)s: %(options)s"
+      ],
+      "Invalid cumulative operator: %(operator)s": [
+        "Toán tử tích lũy không hợp lệ: %(operator)s"
+      ],
+      "Invalid geohash string": ["Chuỗi geohash không hợp lệ"],
+      "Invalid longitude/latitude": ["Kinh độ/vĩ độ không hợp lệ"],
+      "Invalid geodetic string": ["Chuỗi trắc địa không hợp lệ"],
+      "`fbprophet` package not installed": ["Gói `fbprophet` chưa được cài đặt"],
+      "Time grain missing": ["Hạt thời gian bị thiếu"],
+      "Unsupported time grain: %(time_grain)s": [
+        "Hạt thời gian không được hỗ trợ: %(time_grain)s"
+      ],
+      "Periods must be a positive integer value": [
+        "Dấu chấm phải là một giá trị nguyên dương"
+      ],
+      "Confidence interval must be between 0 and 1 (exclusive)": [
+        "Khoảng tin cậy phải nằm trong khoảng từ 0 đến 1 (độc quyền)"
+      ],
+      "DataFrame must include temporal column": [
+        "DataFrame phải bao gồm cột tạm thời"
+      ],
+      "DataFrame include at least one series": [
+        "DataFrame bao gồm ít nhất một chuỗi"
+      ],
+      "percentiles must be a list or tuple with two numeric values, of which the first is lower than the second value": [
+        "phần trăm phải là một danh sách hoặc bộ có hai giá trị số, trong đó giá trị đầu tiên thấp hơn giá trị thứ hai"
+      ],
+      "User": ["Người dùng"],
+      "User Roles": ["Vai trò người dùng"],
+      "Database URL": ["URL cơ sở dữ liệu"],
+      "Roles to grant": ["Vai trò để cấp"],
+      "Created On": ["Được tạo ra"],
+      "List Observations": ["Liệt kê các quan sát"],
+      "Show Observation": ["Hiển thị quan sát"],
+      "Error Message": ["Thông báo lỗi"],
+      "Log Retentions (days)": ["Lưu giữ nhật ký (ngày)"],
+      "A semicolon ';' delimited list of email addresses": [
+        "Dấu chấm phẩy ';' danh sách địa chỉ email được phân tách"
+      ],
+      "How long to keep the logs around for this alert": [
+        "Thời gian lưu nhật ký cho cảnh báo này"
+      ],
+      "Once an alert is triggered, how long, in seconds, before Superset nags you again.": [
+        "Sau khi một cảnh báo được kích hoạt, khoảng thời gian tính bằng giây trước khi Superset lại cằn nhằn bạn."
+      ],
+      "A SQL statement that defines whether the alert should get triggered or not. The query is expected to return either NULL or a number value.": [
+        "Câu lệnh SQL xác định xem cảnh báo có được kích hoạt hay không. Truy vấn dự kiến ​​sẽ trả về NULL hoặc một giá trị số."
+      ],
+      "annotation start time or end time is required.": [
+        "bắt buộc phải có chú thích thời gian bắt đầu hoặc thời gian kết thúc."
+      ],
+      "Annotation end time must be no earlier than start time.": [
+        "Thời gian kết thúc chú thích không được sớm hơn thời gian bắt đầu."
+      ],
+      "Annotations": ["Chú thích"],
+      "Show Annotation": ["Hiển thị chú thích"],
+      "Add Annotation": ["Thêm chú thích"],
+      "Edit Annotation": ["Chỉnh sửa chú thích"],
+      "Layer": ["Lớp"],
+      "Label": ["Nhãn"],
+      "Start": ["Bắt đầu"],
+      "End": ["Kết thúc"],
+      "JSON Metadata": ["Metadata JSON"],
+      "Show Annotation Layer": ["Hiển thị lớp chú thích"],
+      "Add Annotation Layer": ["Thêm lớp chú thích"],
+      "Edit Annotation Layer": ["Chỉnh sửa lớp chú thích"],
+      "Name": ["Tên"],
+      "Dataset %(name)s already exists": ["Tập dữ liệu %(name)s đã tồn tại"],
+      "Table [%{table}s] could not be found, please double check your database connection, schema, and table name, error: {}": [
+        "Không thể tìm thấy bảng [%{table}s], vui lòng kiểm tra kỹ kết nối cơ sở dữ liệu, schema và tên bảng của bạn, lỗi: {}"
+      ],
+      "json isn't valid": ["json không hợp lệ"],
+      "Export to YAML": ["Xuất sang YAML"],
+      "Export to YAML?": ["Xuất sang YAML?"],
+      "Delete": ["Xóa bỏ"],
+      "Delete all Really?": ["Xóa tất cả Thật sao?"],
+      "Is favorite": ["được yêu thích"],
+      "The data source seems to have been deleted": [
+        "Nguồn dữ liệu dường như đã bị xóa"
+      ],
+      "The user seems to have been deleted": ["Người dùng dường như đã bị xóa"],
+      "Access was requested": ["Quyền truy cập đã được yêu cầu"],
+      "The access requests seem to have been deleted": [
+        "Các yêu cầu truy cập dường như đã bị xóa"
+      ],
+      "%(user)s was granted the role %(role)s that gives access to the %(datasource)s": [
+        "%(user)s đã được cấp role %(role)s cấp quyền truy cập vào %(datasource)s"
+      ],
+      "Role %(r)s was extended to provide the access to the datasource %(ds)s": [
+        "Vai trò %(r)s đã được mở rộng để cung cấp quyền truy cập vào nguồn dữ liệu %(ds)s"
+      ],
+      "You have no permission to approve this request": [
+        "Bạn không có quyền phê duyệt yêu cầu này"
+      ],
+      "Cannot import dashboard: %(db_error)s.\nMake sure to create the database before importing the dashboard.": [
+        "Không thể nhập trang tổng quan: %(db_error)s.\nĐảm bảo tạo cơ sở dữ liệu trước khi nhập trang tổng quan."
+      ],
+      "An unknown error occurred. Please contact your Superset administrator": [
+        "Đã xảy ra lỗi không xác định. Vui lòng liên hệ với quản trị viên Superset của bạn"
+      ],
+      "Error occurred when opening the chart: %(error)s": [
+        "Xảy ra lỗi khi mở biểu đồ: %(error)s"
+      ],
+      "You don't have the rights to ": ["Bạn không có quyền"],
+      "alter this ": ["thay đổi điều này"],
+      "chart": ["đồ thị"],
+      "create a ": ["tạo một"],
+      "Explore - %(table)s": ["Khám phá - %(table)s"],
+      "Chart [{}] has been saved": ["Biểu đồ [{}] đã được lưu"],
+      "Chart [{}] has been overwritten": ["Biểu đồ [{}] đã bị ghi đè"],
+      "dashboard": ["bảng điều khiển"],
+      "Chart [{}] was added to dashboard [{}]": [
+        "Biểu đồ [{}] đã được thêm vào bảng điều khiển [{}]"
+      ],
+      "Dashboard [{}] just got created and chart [{}] was added to it": [
+        "Trang tổng quan [{}] vừa được tạo và biểu đồ [{}] đã được thêm vào đó"
+      ],
+      "This dashboard was changed recently. Please reload dashboard to get latest version.": [
+        "Bảng điều khiển này đã được thay đổi gần đây. Vui lòng tải lại bảng điều khiển để có phiên bản mới nhất."
+      ],
+      "Could not load database driver: %(driver_name)s": [
+        "Không thể tải trình điều khiển cơ sở dữ liệu: %(driver_name)s"
+      ],
+      "Invalid connection string, a valid string usually follows:\n'DRIVER://USER:PASSWORD@DB-HOST/DATABASE-NAME'": [
+        "Chuỗi kết nối không hợp lệ, một chuỗi hợp lệ thường theo sau:\n'DRIVER://USER:PASSWORD@DB-HOST/DATABASE-NAME'"
+      ],
+      "Malformed request. slice_id or table_name and db_name arguments are expected": [
+        "Yêu cầu không đúng định dạng. các đối số slice_id hoặc table_name và db_name được mong đợi"
+      ],
+      "Chart %(id)s not found": ["Không tìm thấy biểu đồ %(id)s"],
+      "Table %(table)s wasn't found in the database %(db)s": [
+        "Không tìm thấy bảng %(table)s trong cơ sở dữ liệu %(db)s"
+      ],
+      "Can't find User '%(name)s', please ask your admin to create one.": [
+        "Không thể tìm thấy Người dùng '%(name)s', vui lòng yêu cầu quản trị viên của bạn tạo một tài khoản."
+      ],
+      "Can't find DruidCluster with cluster_name = '%(name)s'": [
+        "Không thể tìm thấy DruidCluster với cluster_name = '%(name)s'"
+      ],
+      "Data could not be deserialized. You may want to re-run the query.": [
+        "Không thể giải tuần tự hóa dữ liệu. Bạn có thể muốn chạy lại truy vấn."
+      ],
+      "%(validator)s was unable to check your query.\nPlease recheck your query.\nException: %(ex)s": [
+        "%(validator)s không thể kiểm tra truy vấn của bạn.\nVui lòng kiểm tra lại truy vấn của bạn.\nNgoại lệ: %(ex)s"
+      ],
+      "Failed to start remote query on a worker. Tell your administrator to verify the availability of the message queue.": [
+        "Không thể bắt đầu truy vấn từ xa trên một nhân viên. Yêu cầu quản trị viên của bạn xác minh tính khả dụng của hàng đợi tin nhắn."
+      ],
+      "Query record was not created as expected.": [
+        "Bản ghi truy vấn không được tạo như mong đợi."
+      ],
+      "The parameter %(parameters)s in your query is undefined.": [
+        "Tham số %(parameters)s trong truy vấn của bạn không được xác định.",
+        "Tham số %(parameters)s trong truy vấn của bạn không được xác định."
+      ],
+      "%(user)s's profile": ["Hồ sơ của %(user)s"],
+      "Show CSS Template": ["Hiển thị mẫu CSS"],
+      "Add CSS Template": ["Thêm mẫu CSS"],
+      "Edit CSS Template": ["Chỉnh sửa mẫu CSS"],
+      "Template Name": ["Tên mẫu"],
+      "A human-friendly name": ["Một cái tên thân thiện với con người"],
+      "Used internally to identify the plugin. Should be set to the package name from the pluginʼs package.json": [
+        "Được sử dụng nội bộ để xác định plugin. Nên đặt thành tên gói từ gói.json của plugin"
+      ],
+      "A full URL pointing to the location of the built plugin (could be hosted on a CDN for example)": [
+        "Một URL đầy đủ trỏ đến vị trí của plugin đã tạo (ví dụ: có thể được lưu trữ trên CDN)"
+      ],
+      "Custom Plugins": ["Plugin tùy chỉnh"],
+      "Custom Plugin": ["Plugin tùy chỉnh"],
+      "Add a Plugin": ["Thêm một Plugin"],
+      "Edit Plugin": ["Chỉnh sửa plugin"],
+      "Schedule Email Reports for Dashboards": [
+        "Lập lịch báo cáo qua email cho các Dashboard"
+      ],
+      "Manage Email Reports for Dashboards": [
+        "Quản lý báo cáo email cho các Dashboard"
+      ],
+      "Changed On": ["Đã thay đổi Bật"],
+      "Active": ["Tích cực"],
+      "Crontab": ["Crontab"],
+      "Recipients": ["Người nhận"],
+      "Slack Channel": ["kênh chùng"],
+      "Deliver As Group": ["Giao hàng theo nhóm"],
+      "Delivery Type": ["Loại giao hàng"],
+      "Schedule Email Reports for Charts": [
+        "Lập lịch báo cáo qua email cho biểu đồ"
+      ],
+      "Manage Email Reports for Charts": ["Quản lý báo cáo qua email cho biểu đồ"],
+      "Email Format": ["Định dạng Email"],
+      "List Saved Query": ["Liệt kê truy vấn đã lưu"],
+      "Show Saved Query": ["Hiển thị truy vấn đã lưu"],
+      "Add Saved Query": ["Thêm truy vấn đã lưu"],
+      "Edit Saved Query": ["Chỉnh sửa truy vấn đã lưu"],
+      "End Time": ["Thời gian kết thúc"],
+      "Pop Tab Link": ["Liên kết tab bật lên"],
+      "Changed on": ["thay đổi trên"],
+      "Could not determine datasource type": [
+        "Không thể xác định loại nguồn dữ liệu"
+      ],
+      "Could not find viz object": ["Không thể tìm thấy đối tượng viz"],
+      "Show Chart": ["Hiển thị biểu đồ"],
+      "Add Chart": ["Thêm biểu đồ"],
+      "Edit Chart": ["Chỉnh sửa biểu đồ"],
+      "These parameters are generated dynamically when clicking the save or overwrite button in the explore view. This JSON object is exposed here for reference and for power users who may want to alter specific parameters.": [
+        "Các tham số này được tạo động khi nhấp vào nút lưu hoặc ghi đè trong chế độ xem explore view. Đối tượng JSON này được hiển thị ở đây để tham khảo và cho những người dùng thành thạo có thể muốn thay đổi các tham số cụ thể."
+      ],
+      "Duration (in seconds) of the caching timeout for this chart. Note this defaults to the datasource/table timeout if undefined.": [
+        "Khoảng thời gian (tính bằng giây) của thời gian chờ lưu vào bộ nhớ đệm cho biểu đồ này. Lưu ý rằng điều này mặc định là thời gian chờ của nguồn dữ liệu/bảng nếu không được xác định."
+      ],
+      "Last Modified": ["Sửa đổi lần cuối"],
+      "Parameters": ["Thông số"],
+      "Visualization Type": ["Loại trực quan hóa"],
+      "Show Dashboard": ["Hiển thị trang tổng quan"],
+      "Add Dashboard": ["Thêm bảng điều khiển"],
+      "Edit Dashboard": ["Chỉnh sửa trang tổng quan"],
+      "This json object describes the positioning of the widgets in the dashboard. It is dynamically generated when adjusting the widgets size and positions by using drag & drop in the dashboard view": [
+        "Đối tượng json này mô tả vị trí của các tiện ích trong bảng điều khiển. Nó được tạo động khi điều chỉnh kích thước và vị trí của tiện ích bằng cách sử dụng kéo và thả trong chế độ xem bảng điều khiển"
+      ],
+      "The CSS for individual dashboards can be altered here, or in the dashboard view where changes are immediately visible": [
+        "Bạn có thể thay đổi CSS cho các trang tổng quan riêng lẻ tại đây hoặc trong chế độ xem trang tổng quan nơi các thay đổi hiển thị ngay lập tức"
+      ],
+      "To get a readable URL for your dashboard": [
+        "Để có được một URL có thể đọc được cho trang tổng quan của bạn"
+      ],
+      "This JSON object is generated dynamically when clicking the save or overwrite button in the dashboard view. It is exposed here for reference and for power users who may want to alter specific parameters.": [
+        "Đối tượng JSON này được tạo động khi nhấp vào nút lưu hoặc ghi đè trong chế độ xem trang tổng quan. Nó được hiển thị ở đây để tham khảo và cho những người dùng thành thạo có thể muốn thay đổi các tham số cụ thể."
+      ],
+      "Owners is a list of users who can alter the dashboard.": [
+        "Chủ sở hữu là danh sách người dùng có thể thay đổi trang tổng quan."
+      ],
+      "Determines whether or not this dashboard is visible in the list of all dashboards": [
+        "Xác định xem trang tổng quan này có hiển thị trong danh sách tất cả các trang tổng quan hay không"
+      ],
+      "Title": ["Tiêu đề"],
+      "Slug": ["sên"],
+      "Published": ["Được phát hành"],
+      "Position JSON": ["Vị trí JSON"],
+      "CSS": ["CSS"],
+      "Underlying Tables": ["Bảng cơ bản"],
+      "Export": ["Export"],
+      "Export dashboards?": ["Export dashboard?"],
+      "Name of table to be created from csv data.": [
+        "Tên của bảng sẽ được tạo từ dữ liệu csv."
+      ],
+      "CSV File": ["Tệp CSV"],
+      "Select a CSV file to be uploaded to a database.": [
+        "Chọn tệp CSV sẽ được tải lên cơ sở dữ liệu."
+      ],
+      "Only the following file extensions are allowed: %(allowed_extensions)s": [
+        "Chỉ cho phép các phần mở rộng tệp sau: %(allowed_extensions)s"
+      ],
+      "Specify a schema (if database flavor supports this).": [
+        "Chỉ định một schema (nếu database flavor hỗ trợ điều này)."
+      ],
+      "Delimiter": ["dấu phân cách"],
+      "Delimiter used by CSV file (for whitespace use \\s+).": [
+        "Dấu phân cách được sử dụng bởi tệp CSV (để sử dụng khoảng trắng \\s+)."
+      ],
+      "Table Exists": ["Bảng đã tồn tại"],
+      "If table exists do one of the following: Fail (do nothing), Replace (drop and recreate table) or Append (insert data).": [
+        "Nếu bảng tồn tại, hãy thực hiện một trong các thao tác sau: Không làm gì cả, Thay thế (xóa và tạo lại bảng) hoặc Nối (chèn dữ liệu)."
+      ],
+      "Fail": ["Thất bại"],
+      "Replace": ["Thay thế"],
+      "Append": ["Nối thêm"],
+      "Header Row": ["Dòng tiêu đề"],
+      "Row containing the headers to use as column names (0 is first line of data). Leave empty if there is no header row.": [
+        "Hàng chứa các tiêu đề để sử dụng làm tên cột (0 là dòng dữ liệu đầu tiên). Để trống nếu không có hàng tiêu đề."
+      ],
+      "Index Column": ["Chỉ số cột"],
+      "Column to use as the row labels of the dataframe. Leave empty if no index column.": [
+        "Cột để sử dụng làm nhãn hàng của khung dữ liệu. Để trống nếu không có chỉ số cột."
+      ],
+      "Mangle Duplicate Columns": ["Mangle trùng lặp cột"],
+      "Specify duplicate columns as \"X.0, X.1\".": [
+        "Chỉ định các cột trùng lặp là \"X.0, X.1\"."
+      ],
+      "Skip Initial Space": ["Bỏ qua khoảng trắng bắt đầu"],
+      "Skip spaces after delimiter.": ["Bỏ qua khoảng trắng sau dấu phân cách."],
+      "Skip Rows": ["Bỏ qua hàng"],
+      "Number of rows to skip at start of file.": [
+        "Số hàng cần bỏ qua khi bắt đầu tệp."
+      ],
+      "Rows to Read": ["Hàng để đọc"],
+      "Number of rows of file to read.": ["Số hàng của tập tin để đọc."],
+      "Skip Blank Lines": ["Bỏ qua các dòng trống"],
+      "Skip blank lines rather than interpreting them as NaN values.": [
+        "Bỏ qua các dòng trống thay vì diễn giải chúng dưới dạng giá trị NaN."
+      ],
+      "Parse Dates": ["Parse ngày"],
+      "A comma separated list of columns that should be parsed as dates.": [
+        "Danh sách các cột được phân tách bằng dấu phẩy sẽ được parse dạng ngày."
+      ],
+      "Infer Datetime Format": ["Suy ra định dạng ngày giờ"],
+      "Use Pandas to interpret the datetime format automatically.": [
+        "Sử dụng Pandas để tự động diễn giải định dạng ngày giờ."
+      ],
+      "Decimal Character": ["ký tự thập phân"],
+      "Character to interpret as decimal point.": [
+        "Ký tự để hiểu là dấu thập phân."
+      ],
+      "Dataframe Index": ["Chỉ số Dataframe"],
+      "Write dataframe index as a column.": [
+        "Viết chỉ số dataframe dưới dạng cột."
+      ],
+      "Column Label(s)": ["Nhãn cột"],
+      "Column label for index column(s). If None is given and Dataframe Index is True, Index Names are used.": [
+        "Nhãn cột cho chỉ số cột. Nếu Không được cung cấp và chỉ số Dataframe là Đúng, Tên chỉ số được sử dụng."
+      ],
+      "Null values": ["Giá trị null"],
+      "Json list of the values that should be treated as null. Examples: [\"\"], [\"None\", \"N/A\"], [\"nan\", \"null\"]. Warning: Hive database supports only single value. Use [\"\"] for empty string.": [
+        "Json danh sách các giá trị sẽ được coi là null. Ví dụ: [\"\"], [\"None\", \"N/A\"], [\"nan\", \"null\"]. Cảnh báo: Cơ sở dữ liệu Hive chỉ hỗ trợ một giá trị. Sử dụng [\"\"] cho chuỗi rỗng."
+      ],
+      "Name of table to be created from excel data.": [
+        "Tên của bảng sẽ được tạo từ dữ liệu excel."
+      ],
+      "Excel File": ["Tệp Excel"],
+      "Select a Excel file to be uploaded to a database.": [
+        "Chọn một tệp Excel sẽ được tải lên cơ sở dữ liệu."
+      ],
+      "Sheet Name": ["Tên trang tính"],
+      "Strings used for sheet names (default is the first sheet).": [
+        "Các chuỗi được sử dụng cho tên trang tính (mặc định là trang tính đầu tiên)."
+      ],
+      "Show Database": ["Hiển thị cơ sở dữ liệu"],
+      "Add Database": ["Thêm cơ sở dữ liệu"],
+      "Edit Database": ["Chỉnh sửa cơ sở dữ liệu"],
+      "Expose this DB in SQL Lab": ["Hiển thị DB này trong SQL Lab"],
+      "Operate the database in asynchronous mode, meaning  that the queries are executed on remote workers as opposed to on the web server itself. This assumes that you have a Celery worker setup as well as a results backend. Refer to the installation docs for more information.": [
+        "Vận hành cơ sở dữ liệu ở chế độ không đồng bộ, nghĩa là các truy vấn được thực hiện trên nhân viên từ xa thay vì trên chính máy chủ web. Điều này giả định rằng bạn có thiết lập nhân viên Celery cũng như phần phụ trợ kết quả. Tham khảo tài liệu cài đặt để biết thêm thông tin."
+      ],
+      "Allow CREATE TABLE AS option in SQL Lab": [
+        "Cho phép tùy chọn CREATE TABLE AS trong SQL Lab"
+      ],
+      "Allow CREATE VIEW AS option in SQL Lab": [
+        "Cho phép tùy chọn CREATE VIEW AS trong SQL Lab"
+      ],
+      "Allow users to run non-SELECT statements (UPDATE, DELETE, CREATE, ...) in SQL Lab": [
+        "Cho phép người dùng chạy các câu lệnh non-SELECT (UPDATE, DELETE, CREATE, ...) trong SQL Lab"
+      ],
+      "When allowing CREATE TABLE AS option in SQL Lab, this option forces the table to be created in this schema": [
+        "Khi cho phép tùy chọn CREATE TABLE AS trong SQL Lab, tùy chọn này buộc bảng được tạo trong schema này"
+      ],
+      "If Presto, Trino or Drill all the queries in SQL Lab are going to be executed as the currently logged on user who must have permission to run them.<br/>If Hive and hive.server2.enable.doAs is enabled, will run the queries as service account, but impersonate the currently logged on user via hive.server2.proxy.user property.": [
+        "Nếu Presto, Trino hoặc Drill, tất cả các truy vấn trong SQL Lab sẽ được thực thi vì người dùng hiện đã đăng nhập phải có quyền chạy chúng.<br/>Nếu Hive và hive.server2.enable.doAs được bật, sẽ chạy các truy vấn dưới dạng tài khoản dịch vụ, nhưng mạo danh người dùng hiện đang đăng nhập thông qua thuộc tính hive.server2.proxy.user."
+      ],
+      "Allow SQL Lab to fetch a list of all tables and all views across all database schemas. For large data warehouse with thousands of tables, this can be expensive and put strain on the system.": [
+        "Cho phép SQL Lab tìm nạp danh sách tất cả các bảng và tất cả các dạng xem trên tất cả các schema cơ sở dữ liệu. Đối với kho dữ liệu lớn với hàng nghìn bảng, điều này có thể tốn kém và gây căng thẳng cho hệ thống."
+      ],
+      "Duration (in seconds) of the caching timeout for charts of this database. A timeout of 0 indicates that the cache never expires. Note this defaults to the global timeout if undefined.": [
+        "Khoảng thời gian (tính bằng giây) của thời gian chờ lưu vào bộ nhớ đệm cho các biểu đồ của cơ sở dữ liệu này. Thời gian chờ bằng 0 cho biết bộ đệm không bao giờ hết hạn. Lưu ý rằng điều này mặc định là thời gian chờ toàn cầu nếu không được xác định."
+      ],
+      "If selected, please set the schemas allowed for csv upload in Extra.": [
+        "Nếu được chọn, vui lòng đặt lược đồ được phép tải lên csv trong phần Bổ sung."
+      ],
+      "Expose in SQL Lab": ["Lộ ra trong SQL Lab"],
+      "Allow CREATE TABLE AS": ["Cho phép CREATE TABLE AS"],
+      "Allow CREATE VIEW AS": ["Cho phép CREATE VIEW AS"],
+      "Allow DML": ["Cho phép DML"],
+      "CTAS Schema": ["Lược đồ CTAS"],
+      "SQLAlchemy URI": ["SQLAlchemy URI"],
+      "Chart Cache Timeout": ["Hết thời gian chờ của bộ đệm biểu đồ"],
+      "Secure Extra": ["An toàn bổ sung"],
+      "Root certificate": ["Chứng chỉ gốc"],
+      "Async Execution": ["Thực thi không đồng bộ"],
+      "Impersonate the logged on user": ["Mạo danh người dùng đã đăng nhập"],
+      "Allow Csv Upload": ["Cho phép Tải lên Csv"],
+      "Allow Multi Schema Metadata Fetch": [
+        "Cho phép tìm nạp Metadata nhiều Schema"
+      ],
+      "Backend": ["Backend"],
+      "Extra field cannot be decoded by JSON. %(msg)s": [
+        "Trường bổ sung không thể được giải mã bằng JSON. %(msg)s"
+      ],
+      "Invalid connection string, a valid string usually follows:'DRIVER://USER:PASSWORD@DB-HOST/DATABASE-NAME'<p>Example:'postgresql://user:password@your-postgres-db/database'</p>": [
+        "Chuỗi kết nối không hợp lệ, một chuỗi hợp lệ thường theo sau:'DRIVER://USER:PASSWORD@DB-HOST/DATABASE-NAME'<p>Ví dụ:'postgresql://user:password@your-postgres-db/database'</p>"
+      ],
+      "CSV to Database configuration": ["Cấu hình CSV sang Cơ sở dữ liệu"],
+      "Database \"%(database_name)s\" schema \"%(schema_name)s\" is not allowed for csv uploads. Please contact your Superset Admin.": [
+        "Cơ sở dữ liệu \"%(database_name)s\" giản đồ \"%(schema_name)s\" không được phép tải lên csv. Vui lòng liên hệ với Quản trị viên Superset của bạn."
+      ],
+      "You cannot specify a namespace both in the name of the table: \"%(csv_table.table)s\" and in the schema field: \"%(csv_table.schema)s\". Please remove one": [
+        "Bạn không thể chỉ định một namespace cả trong tên của bảng: \"%(csv_table.table)s\" và trong trường schema: \"%(csv_table.schema)s\". Hãy loại bỏ một"
+      ],
+      "Unable to upload CSV file \"%(filename)s\" to table \"%(table_name)s\" in database \"%(db_name)s\". Error message: %(error_msg)s": [
+        "Không thể tải tệp CSV \"%(filename)s\" lên bảng \"%(table_name)s\" trong cơ sở dữ liệu \"%(db_name)s\". Thông báo lỗi: %(error_msg)s"
+      ],
+      "CSV file \"%(csv_filename)s\" uploaded to table \"%(table_name)s\" in database \"%(db_name)s\"": [
+        "Đã tải tệp CSV \"%(csv_filename)s\" lên bảng \"%(table_name)s\" trong cơ sở dữ liệu \"%(db_name)s\""
+      ],
+      "Excel to Database configuration": ["Cấu hình Excel sang Cơ sở dữ liệu"],
+      "Database \"%(database_name)s\" schema \"%(schema_name)s\" is not allowed for excel uploads. Please contact your Superset Admin.": [
+        "Cơ sở dữ liệu \"%(database_name)s\" schema \"%(schema_name)s\" không được phép tải lên excel. Vui lòng liên hệ với Quản trị viên Superset của bạn."
+      ],
+      "You cannot specify a namespace both in the name of the table: \"%(excel_table.table)s\" and in the schema field: \"%(excel_table.schema)s\". Please remove one": [
+        "Bạn không thể chỉ định một namespace cả trong tên của bảng: \"%(excel_table.table)s\" và trong trường schema: \"%(excel_table.schema)s\". Hãy loại bỏ một"
+      ],
+      "Unable to upload Excel file \"%(filename)s\" to table \"%(table_name)s\" in database \"%(db_name)s\". Error message: %(error_msg)s": [
+        "Không thể tải tệp Excel \"%(filename)s\" lên bảng \"%(table_name)s\" trong cơ sở dữ liệu \"%(db_name)s\". Thông báo lỗi: %(error_msg)s"
+      ],
+      "Excel file \"%(excel_filename)s\" uploaded to table \"%(table_name)s\" in database \"%(db_name)s\"": [
+        "Đã tải tệp Excel \"%(excel_filename)s\" lên bảng \"%(table_name)s\" trong cơ sở dữ liệu \"%(db_name)s\""
+      ],
+      "Logs": ["Nhật ký"],
+      "Show Log": ["Hiển thị Nhật ký"],
+      "Add Log": ["Thêm nhật ký"],
+      "Edit Log": ["Chỉnh sửa Nhật ký"],
+      "Action": ["Hoạt động"],
+      "dttm": ["dttm"],
+      "Add item": ["Thêm mục"],
+      "The query couldn't be loaded": ["Không thể tải truy vấn"],
+      "Your query has been scheduled. To see details of your query, navigate to Saved queries": [
+        "Truy vấn của bạn đã được lên lịch. Để xem chi tiết truy vấn của bạn, hãy điều hướng đến Truy vấn đã lưu"
+      ],
+      "Your query could not be scheduled": [
+        "Truy vấn của bạn không thể được lên lịch"
+      ],
+      "Failed at retrieving results": ["Không thể truy xuất kết quả"],
+      "An error occurred while storing the latest query id in the backend. Please contact your administrator if this problem persists.": [
+        "Đã xảy ra lỗi khi lưu trữ id truy vấn mới nhất trong phần phụ trợ. Vui lòng liên hệ với quản trị viên của bạn nếu sự cố này vẫn tiếp diễn."
+      ],
+      "Unknown error": ["Lỗi không rõ"],
+      "Query was stopped.": ["Truy vấn đã bị dừng."],
+      "Unable to migrate table schema state to backend. Superset will retry later. Please contact your administrator if this problem persists.": [
+        "Không thể di chuyển trạng thái schema bảng sang chương trình phụ trợ. Superset sẽ thử lại sau. Vui lòng liên hệ với quản trị viên của bạn nếu sự cố này vẫn tiếp diễn."
+      ],
+      "Unable to migrate query state to backend. Superset will retry later. Please contact your administrator if this problem persists.": [
+        "Không thể di chuyển trạng thái truy vấn sang chương trình phụ trợ. Superset sẽ thử lại sau. Vui lòng liên hệ với quản trị viên của bạn nếu sự cố này vẫn tiếp diễn."
+      ],
+      "Unable to migrate query editor state to backend. Superset will retry later. Please contact your administrator if this problem persists.": [
+        "Không thể di chuyển trạng thái trình chỉnh sửa truy vấn sang chương trình phụ trợ. Superset sẽ thử lại sau. Vui lòng liên hệ với quản trị viên của bạn nếu sự cố này vẫn tiếp diễn."
+      ],
+      "Unable to add a new tab to the backend. Please contact your administrator.": [
+        "Không thể thêm tab mới vào phụ trợ. Vui lòng liên hệ với quản trị viên của bạn."
+      ],
+      "Copy of %s": ["Bản sao của %s"],
+      "An error occurred while setting the active tab. Please contact your administrator.": [
+        "Đã xảy ra lỗi khi đặt tab đang hoạt động. Vui lòng liên hệ với quản trị viên của bạn."
+      ],
+      "An error occurred while fetching tab state": [
+        "Đã xảy ra lỗi khi tìm nạp trạng thái tab"
+      ],
+      "An error occurred while removing tab. Please contact your administrator.": [
+        "Đã xảy ra lỗi khi xóa tab. Vui lòng liên hệ với quản trị viên của bạn."
+      ],
+      "An error occurred while removing query. Please contact your administrator.": [
+        "Đã xảy ra lỗi khi xóa truy vấn. Vui lòng liên hệ với quản trị viên của bạn."
+      ],
+      "An error occurred while setting the tab database ID. Please contact your administrator.": [
+        "Đã xảy ra lỗi khi đặt ID cơ sở dữ liệu tab. Vui lòng liên hệ với quản trị viên của bạn."
+      ],
+      "An error occurred while setting the tab schema. Please contact your administrator.": [
+        "Đã xảy ra lỗi khi đặt tab schema. Vui lòng liên hệ với quản trị viên của bạn."
+      ],
+      "An error occurred while setting the tab autorun. Please contact your administrator.": [
+        "Đã xảy ra lỗi khi đặt tự động chạy tab. Vui lòng liên hệ với quản trị viên của bạn."
+      ],
+      "An error occurred while setting the tab title. Please contact your administrator.": [
+        "Đã xảy ra lỗi khi đặt tiêu đề tab. Vui lòng liên hệ với quản trị viên của bạn."
+      ],
+      "Your query was saved": ["Truy vấn của bạn đã được lưu"],
+      "Your query could not be saved": ["Không thể lưu truy vấn của bạn"],
+      "Your query was updated": ["Truy vấn của bạn đã được cập nhật"],
+      "Your query could not be updated": ["Không thể cập nhật truy vấn của bạn"],
+      "An error occurred while storing your query in the backend. To avoid losing your changes, please save your query using the \"Save Query\" button.": [
+        "Đã xảy ra lỗi khi lưu trữ truy vấn của bạn trong chương trình phụ trợ. Để tránh làm mất các thay đổi của bạn, vui lòng lưu truy vấn của bạn bằng cách sử dụng nút \"Lưu truy vấn\"."
+      ],
+      "An error occurred while setting the tab template parameters. Please contact your administrator.": [
+        "Đã xảy ra lỗi khi đặt tham số mẫu tab. Vui lòng liên hệ với quản trị viên của bạn."
+      ],
+      "An error occurred while fetching table metadata": [
+        "Đã xảy ra lỗi khi tìm nạp metadata bảng"
+      ],
+      "An error occurred while fetching table metadata. Please contact your administrator.": [
+        "Đã xảy ra lỗi khi tìm nạp metadata bảng. Vui lòng liên hệ với quản trị viên của bạn."
+      ],
+      "An error occurred while expanding the table schema. Please contact your administrator.": [
+        "Đã xảy ra lỗi khi mở rộng schema bảng. Vui lòng liên hệ với quản trị viên của bạn."
+      ],
+      "An error occurred while collapsing the table schema. Please contact your administrator.": [
+        "Đã xảy ra lỗi khi thu gọn schema bảng. Vui lòng liên hệ với quản trị viên của bạn."
+      ],
+      "An error occurred while removing the table schema. Please contact your administrator.": [
+        "Đã xảy ra lỗi khi xóa schema bảng. Vui lòng liên hệ với quản trị viên của bạn."
+      ],
+      "Shared query": ["truy vấn được chia sẻ"],
+      "The datasource couldn't be loaded": ["Không thể tải nguồn dữ liệu"],
+      "An error occurred while creating the data source": [
+        "Đã xảy ra lỗi khi tạo nguồn dữ liệu"
+      ],
+      "SQL Lab uses your browser's local storage to store queries and results.\n Currently, you are using ${currentUsage.toFixed(\n            2,\n          )} KB out of ${LOCALSTORAGE_MAX_USAGE_KB} KB. storage space.\n To keep SQL Lab from crashing, please delete some query tabs.\n You can re-access these queries by using the Save feature before you delete the tab. Note that you will need to close other SQL Lab windows before you do this.": [
+        "SQL Lab sử dụng bộ nhớ cục bộ của trình duyệt của bạn để lưu trữ các truy vấn và kết quả.\n Hiện tại, bạn đang sử dụng ${currentUsage.toFixed(\n            2,\n          )} KB trong tổng số ${LOCALSTORAGE_MAX_USAGE_KB} KB. không gian lưu trữ.\n Để SQL Lab không gặp sự cố, vui lòng xóa một số tab truy vấn.\n Bạn có thể truy cập lại các truy vấn này bằng cách sử dụng tính năng Lưu trước khi xóa tab. Lưu ý rằng bạn sẽ cần đóng các cửa sổ SQL Lab khác trước khi thực hiện việc này."
+      ],
+      "Estimate selected query cost": ["Ước tính chi phí truy vấn đã chọn"],
+      "Estimate cost": ["ước tính chi phí"],
+      "Cost estimate": ["ước tính chi phí"],
+      "Creating a data source and creating a new tab": [
+        "Tạo nguồn dữ liệu và tạo tab mới"
+      ],
+      "An error occurred": ["Đã xảy ra lỗi"],
+      "Explore the result set in the data exploration view": [
+        "Khám phá tập hợp kết quả trong chế độ xem khám phá dữ liệu"
+      ],
+      "Explore": ["Khám phá"],
+      "This query took %s seconds to run, ": ["Truy vấn này mất %s giây để chạy,"],
+      "and the explore view times out at %s seconds ": [
+        "và chế độ xem khám phá hết thời gian sau %s giây"
+      ],
+      "following this flow will most likely lead to your query timing out. ": [
+        "theo dòng này rất có thể sẽ dẫn đến hết thời gian truy vấn của bạn."
+      ],
+      "We recommend your summarize your data further before following that flow. ": [
+        "Chúng tôi khuyên bạn nên tóm tắt thêm dữ liệu của mình trước khi thực hiện theo quy trình đó."
+      ],
+      "If activated you can use the ": ["Nếu được kích hoạt, bạn có thể sử dụng"],
+      "feature to store a summarized data set that you can then explore.": [
+        "tính năng lưu trữ tập dữ liệu tóm tắt mà sau đó bạn có thể khám phá."
+      ],
+      "Column name(s) ": ["Tên cột"],
+      "cannot be used as a column name. The column name/alias \"__timestamp\"\n          is reserved for the main temporal expression, and column aliases ending with\n          double underscores followed by a numeric value (e.g. \"my_col__1\") are reserved\n          for deduplicating duplicate column names. Please use aliases to rename the\n          invalid column names.": [
+        "không thể được sử dụng làm tên cột. Tên cột/bí danh \"__timestamp\"\n          được dành riêng cho biểu thức thời gian chính và bí danh cột kết thúc bằng\n          dấu gạch dưới kép theo sau là giá trị số (ví dụ: \"my_col__1\") được đặt trước\n          để sao chép các tên cột trùng lặp. Vui lòng sử dụng bí danh để đổi tên\n          tên cột không hợp lệ."
+      ],
+      "Raw SQL": ["SQL thô"],
+      "Source SQL": ["Nguồn SQL"],
+      "SQL": ["SQL"],
+      "No query history yet...": ["Chưa có lịch sử truy vấn..."],
+      "It seems you don't have access to any database": [
+        "Có vẻ như bạn không có quyền truy cập vào bất kỳ cơ sở dữ liệu nào"
+      ],
+      "An error occurred when refreshing queries": [
+        "Đã xảy ra lỗi khi làm mới truy vấn"
+      ],
+      "Filter by user": ["Lọc theo người dùng"],
+      "Filter by database": ["Lọc theo cơ sở dữ liệu"],
+      "Query search string": ["Truy vấn chuỗi tìm kiếm"],
+      "[From]-": ["[Từ]-"],
+      "[To]-": ["[ĐẾN]-"],
+      "Filter by status": ["Lọc theo trạng thái"],
+      "Edit": ["Biên tập"],
+      "View results": ["Xem Kết quả"],
+      "Data preview": ["Xem trước dữ liệu"],
+      "Overwrite text in the editor with a query on this table": [
+        "Ghi đè văn bản trong trình chỉnh sửa bằng truy vấn trên bảng này"
+      ],
+      "Run query in a new tab": ["Chạy truy vấn trong một tab mới"],
+      "Remove query from log": ["Xóa truy vấn khỏi nhật ký"],
+      "An error occurred saving dataset": ["Đã xảy ra lỗi khi lưu tập dữ liệu"],
+      ".CSV": [".CSV"],
+      "Clipboard": ["bảng tạm"],
+      "Filter results": ["Lọc kết quả"],
+      "Database error": ["Lỗi cơ sở dữ liệu"],
+      "was created": ["đã được tạo ra"],
+      "Query in a new tab": ["Truy vấn trong tab mới"],
+      "The query returned no data": ["Truy vấn không trả về dữ liệu"],
+      "Fetch data preview": ["Tìm nạp dữ liệu xem trước"],
+      "Refetch results": ["Tìm lại kết quả"],
+      "Track job": ["Theo dõi công việc"],
+      "Stop": ["Dừng lại"],
+      "Run selection": ["Chạy lựa chọn"],
+      "Run": ["Chạy"],
+      "Stop running (Ctrl + x)": ["Dừng chạy (Ctrl + x)"],
+      "Stop running (Ctrl + e)": ["Dừng chạy (Ctrl + e)"],
+      "Run query (Ctrl + Return)": ["Chạy truy vấn (Ctrl + Return)"],
+      "Save & Explore": ["Lưu & Khám phá"],
+      "Overwrite & Explore": ["Ghi đè & Khám phá"],
+      "Undefined": ["Không xác định"],
+      "Save": ["Cứu"],
+      "Save as": ["Lưu thành"],
+      "Save query": ["Lưu truy vấn"],
+      "Save as new": ["Lưu như mới"],
+      "Update": ["Cập nhật"],
+      "Label for your query": ["Nhãn cho truy vấn của bạn"],
+      "Write a description for your query": ["Viết mô tả cho truy vấn của bạn"],
+      "Schedule query": ["lịch trình truy vấn"],
+      "Schedule": ["Lịch trình"],
+      "There was an error with your request": ["Có lỗi với yêu cầu của bạn"],
+      "Please save the query to enable sharing": [
+        "Vui lòng lưu truy vấn để bật chia sẻ"
+      ],
+      "Copy link": ["Sao chép đường dẫn"],
+      "Copy query link to your clipboard": [
+        "Sao chép liên kết truy vấn vào khay nhớ tạm của bạn"
+      ],
+      "Save the query to copy the link": ["Lưu truy vấn để sao chép liên kết"],
+      "No stored results found, you need to re-run your query": [
+        "Không tìm thấy kết quả được lưu trữ nào, bạn cần chạy lại truy vấn của mình"
+      ],
+      "Run a query to display results here": [
+        "Chạy truy vấn để hiển thị kết quả tại đây"
+      ],
+      "Preview: `%s`": ["Xem trước: `%s`"],
+      "Results": ["Kết quả"],
+      "Query history": ["lịch sử truy vấn"],
+      "Run query": ["Chạy truy vấn"],
+      "New tab": ["tab mới"],
+      "Untitled query": ["truy vấn không có tiêu đề"],
+      "Stop query": ["Dừng truy vấn"],
+      "Schedule the query periodically": ["Lên lịch truy vấn định kỳ"],
+      "You must run the query successfully first": [
+        "Bạn phải chạy truy vấn thành công trước"
+      ],
+      "It appears that the number of rows in the query results displayed\n           was limited on the server side to\n           the %s limit.": [
+        "Có vẻ như số hàng trong kết quả truy vấn được hiển thị\n           đã bị giới hạn ở phía máy chủ để\n           giới hạn %s."
+      ],
+      "CREATE TABLE AS": ["CREATE TABLE AS"],
+      "CREATE VIEW AS": ["CREATE VIEW AS"],
+      "Estimate the cost before running a query": [
+        "Ước tính chi phí trước khi chạy truy vấn"
+      ],
+      "Reset state": ["Đặt lại trạng thái"],
+      "Enter a new title for the tab": ["Nhập tiêu đề mới cho tab"],
+      "Untitled Query %s": ["Untitled Query %s"],
+      "Close tab": ["Đóng tab"],
+      "Rename tab": ["Đổi tên tab"],
+      "Expand tool bar": ["Mở rộng thanh công cụ"],
+      "Hide tool bar": ["Ẩn thanh công cụ"],
+      "Close all other tabs": ["Đóng tất cả các tab khác"],
+      "Duplicate tab": ["Nhân đôi tab"],
+      "Copy partition query to clipboard": [
+        "Sao chép truy vấn phân vùng vào clipboard"
+      ],
+      "latest partition:": ["phân vùng mới nhất:"],
+      "Keys for table": ["Chìa khóa cho bảng"],
+      "View keys & indexes (%s)": ["Xem khóa và chỉ mục (%s)"],
+      "Sort columns alphabetically": ["Sắp xếp các cột theo thứ tự bảng chữ cái"],
+      "Original table column order": ["Thứ tự cột bảng gốc"],
+      "Copy SELECT statement to the clipboard": [
+        "Sao chép câu lệnh SELECT vào clipboard"
+      ],
+      "Show CREATE VIEW statement": ["Hiển thị câu lệnh CREATE VIEW"],
+      "CREATE VIEW statement": ["Câu lệnh CREATE VIEW"],
+      "Remove table preview": ["Xóa bản xem trước bảng"],
+      "Assign a set of parameters as": ["Gán một bộ tham số như"],
+      "below (example:": ["bên dưới (ví dụ:"],
+      "), and they become available in your SQL (example:": [
+        ") và chúng có sẵn trong SQL của bạn (ví dụ:"
+      ],
+      ") by using": [") bằng cách sử dụng"],
+      "Edit template parameters": ["Chỉnh sửa tham số mẫu"],
+      "Invalid JSON": ["JSON không hợp lệ"],
+      "Create a new chart": ["Tạo biểu đồ mới"],
+      "Choose a dataset": ["Chọn một tập dữ liệu"],
+      "If the dataset you are looking for is not available in the list, follow the instructions on how to add it in the Superset tutorial.": [
+        "Nếu tập dữ liệu bạn đang tìm không có trong danh sách, hãy làm theo hướng dẫn về cách thêm tập dữ liệu đó trong hướng dẫn Superset."
+      ],
+      "Choose a visualization type": ["Chọn một loại trực quan hóa (visualization)"],
+      "Create new chart": ["Tạo biểu đồ mới"],
+      "An error occurred while loading the SQL": ["Đã xảy ra lỗi khi xử lý SQL"],
+      "Updating chart was stopped": ["Cập nhật biểu đồ đã bị dừng"],
+      "An error occurred while rendering the visualization: %s": [
+        "Đã xảy ra lỗi khi hiển thị trực quan hoá dữ liệu (visualization): %s"
+      ],
+      "Network error.": ["Lỗi mạng (Network error)."],
+      "every": ["mỗi"],
+      "every month": ["mỗi tháng"],
+      "every day of the month": ["mỗi ngày trong tháng"],
+      "day of the month": ["Ngày trong tháng"],
+      "every day of the week": ["Mỗi ngày trong tuần"],
+      "day of the week": ["ngày trong tuần"],
+      "every hour": ["mỗi tiếng"],
+      "every minute UTC": ["mỗi phút UTC"],
+      "year": ["năm"],
+      "month": ["tháng"],
+      "week": ["tuần"],
+      "day": ["ngày"],
+      "hour": ["giờ"],
+      "minute": ["phút"],
+      "reboot": ["khởi động lại"],
+      "Every": ["Mỗi"],
+      "in": ["vào"],
+      "on": ["vào"],
+      "and": ["và"],
+      "at": ["vào lúc"],
+      ":": [":"],
+      "minute(s) UTC": ["phút UTC"],
+      "Invalid cron expression": ["Biểu thức cron không hợp lệ"],
+      "Clear": ["Clear"],
+      "Sunday": ["Chủ Nhật"],
+      "Monday": ["Thứ Hai"],
+      "Tuesday": ["Thứ Ba"],
+      "Wednesday": ["Thứ Tư"],
+      "Thursday": ["Thứ Năm"],
+      "Friday": ["Thứ Sáu"],
+      "Saturday": ["Thứ Bảy"],
+      "January": ["Tháng 01"],
+      "February": ["Tháng 02"],
+      "March": ["Tháng 03"],
+      "April": ["Tháng 04"],
+      "May": ["Tháng 05"],
+      "June": ["Tháng 06"],
+      "July": ["Tháng 07"],
+      "August": ["Tháng 08"],
+      "September": ["Tháng 09"],
+      "October": ["Tháng 10"],
+      "November": ["Tháng 11"],
+      "December": ["Tháng 12"],
+      "SUN": ["CN"],
+      "MON": ["T2"],
+      "TUE": ["T3"],
+      "WED": ["T4"],
+      "THU": ["T5"],
+      "FRI": ["T6"],
+      "SAT": ["T7"],
+      "JAN": ["TH.01"],
+      "FEB": ["TH.02"],
+      "MAR": ["TH.03"],
+      "APR": ["TH.05"],
+      "MAY": ["TH.05"],
+      "JUN": ["TH.06"],
+      "JUL": ["TH.07"],
+      "AUG": ["TH.08"],
+      "SEP": ["TH.09"],
+      "OCT": ["TH.10"],
+      "NOV": ["TH.11"],
+      "DEC": ["TH.12"],
+      "OK": ["ĐƯỢC RỒI"],
+      "Click to see difference": ["Click để thấy sự khác biệt"],
+      "Altered": ["đã thay đổi"],
+      "Chart changes": ["Thay đổi biểu đồ"],
+      "Superset chart": ["biểu đồ superset"],
+      "Check out this chart in dashboard:": [
+        "Kiểm tra biểu đồ này trong bảng điều khiển:"
+      ],
+      "Select ...": ["Lựa chọn ..."],
+      "Loaded data cached": ["Đã tải dữ liệu được lưu vào bộ nhớ cache"],
+      "Loaded from cache": ["Đã tải từ bộ đệm"],
+      "Click to force-refresh": ["Nhấp để buộc làm mới"],
+      "cached": ["lưu vào bộ nhớ cache"],
+      "Certified by %s": ["Được chứng nhận bởi %s"],
+      "Copy to clipboard": ["Sao chép vào clipboard"],
+      "Copied!": ["Đã sao chép!"],
+      "Sorry, your browser does not support copying. Use Ctrl / Cmd + C!": [
+        "Xin lỗi, trình duyệt của bạn không hỗ trợ sao chép. Sử dụng Ctrl/Cmd + C!"
+      ],
+      "Error while fetching schema list": ["Lỗi khi tìm nạp danh sách schema"],
+      "Error while fetching database list": [
+        "Lỗi khi tìm nạp danh sách cơ sở dữ liệu"
+      ],
+      "Database:": ["Cơ sở dữ liệu:"],
+      "Select a database": ["Chọn một cơ sở dữ liệu"],
+      "Force refresh schema list": ["Buộc làm mới danh sách schema"],
+      "Select a schema (%s)": ["Chọn một schema (%s)"],
+      "Schema:": ["Schema:"],
+      "datasource": ["nguồn dữ liệu"],
+      "schema": ["schema"],
+      "delete": ["xóa bỏ"],
+      "Type \"%s\" to confirm": ["Nhập \"%s\" để xác nhận"],
+      "DELETE": ["XÓA BỎ"],
+      "Click to edit": ["Bấm vào để chỉnh sửa"],
+      "You don't have the rights to alter this title.": [
+        "Bạn không có quyền thay đổi tiêu đề này."
+      ],
+      "Unexpected error": ["Lỗi không mong đợi"],
+      "Click to favorite/unfavorite": ["Nhấp vào mục yêu thích/không yêu thích"],
+      "An error occurred while fetching dashboards": [
+        "Đã xảy ra lỗi khi tìm nạp trang tổng quan"
+      ],
+      "Error while fetching table list": ["Lỗi khi tìm nạp danh sách bảng"],
+      "Select table or type table name": ["Chọn bảng hoặc nhập tên bảng"],
+      "Type to search ...": ["Nhập để tìm kiếm ..."],
+      "Select table ": ["Chọn bảng"],
+      "Force refresh table list": ["Buộc làm mới danh sách bảng"],
+      "See table schema": ["Xem schema bảng"],
+      "%s%s": ["%s%s"],
+      "Share dashboard": ["Chia sẻ trang tổng quan"],
+      "This may be triggered by:": ["Điều này có thể được kích hoạt bởi:"],
+      "Please reach out to the Chart Owner for assistance.": [
+        "Vui lòng liên hệ với Chủ sở hữu biểu đồ để được hỗ trợ."
+      ],
+      "Chart Owner: %s": ["Chủ sở hữu biểu đồ: %s"],
+      "%s Error": ["Lỗi %s"],
+      "See more": ["Xem thêm"],
+      "See less": ["Thấy ít"],
+      "Copy message": ["Sao chép tin nhắn"],
+      "Close": ["Đóng"],
+      "This was triggered by:": ["Điều này đã được kích hoạt bởi:"],
+      "Did you mean:": ["Ý bạn là:"],
+      "%(suggestion)s instead of \"%(undefinedParameter)s?\"": [
+        "%(suggestion)s thay vì \"%(undefinedParameter)s?\""
+      ],
+      "Parameter error": ["lỗi tham số"],
+      "We’re having trouble loading this visualization. Queries are set to timeout after %s second.": [
+        "Chúng tôi đang gặp sự cố khi tải hình ảnh trực quan này. Các truy vấn được đặt thành thời gian chờ sau %s giây."
+      ],
+      "We’re having trouble loading these results. Queries are set to timeout after %s second.": [
+        "Chúng tôi đang gặp sự cố khi tải các kết quả này. Các truy vấn được đặt thành thời gian chờ sau %s giây."
+      ],
+      "Timeout error": ["lỗi hết thời gian chờ"],
+      "Cell content": ["Nội dung ô"],
+      "The import was successful": ["Quá trình nhập đã thành công"],
+      "OVERWRITE": ["VIẾT QUÁ"],
+      "Overwrite": ["ghi đè"],
+      "Import": ["Nhập khẩu"],
+      "Import %s": ["Nhập %s"],
+      "Last Updated %s": ["Cập nhật lần cuối %s"],
+      "%s Selected": ["%s đã chọn"],
+      "Deselect all": ["Bỏ chọn tất cả"],
+      "%s-%s of %s": ["%s-%s của %s"],
+      "Settings": ["Cài đặt"],
+      "About": ["Về"],
+      "SQL query": ["truy vấn SQL"],
+      "There is not enough space for this component. Try decreasing its width, or increasing the destination width.": [
+        "Không có đủ dung lượng cho thành phần này. Hãy thử giảm chiều rộng của nó hoặc tăng chiều rộng đích."
+      ],
+      "Can not move top level tab into nested tabs": [
+        "Không thể di chuyển tab cấp cao nhất vào các tab lồng nhau"
+      ],
+      "This chart has been moved to a different filter scope.": [
+        "Biểu đồ này đã được chuyển sang một phạm vi bộ lọc khác."
+      ],
+      "There was an issue fetching the favorite status of this dashboard.": [
+        "Đã xảy ra sự cố khi tìm nạp trạng thái yêu thích của trang tổng quan này."
+      ],
+      "There was an issue favoriting this dashboard.": [
+        "Đã xảy ra sự cố khi chọn trang tổng quan này."
+      ],
+      "This dashboard is now ${nowPublished}": [
+        "Trang tổng quan này hiện là ${nowPublished}"
+      ],
+      "You do not have permissions to edit this dashboard.": [
+        "Bạn không có quyền chỉnh sửa trang tổng quan này."
+      ],
+      "This dashboard was saved successfully.": [
+        "Trang tổng quan này đã được lưu thành công."
+      ],
+      "Could not fetch all saved charts": [
+        "Không thể tìm nạp tất cả các biểu đồ đã lưu"
+      ],
+      "Sorry there was an error fetching saved charts: ": [
+        "Rất tiếc, đã xảy ra lỗi khi tìm nạp các biểu đồ đã lưu:"
+      ],
+      "Visualization": ["Hình dung"],
+      "Data source": ["Nguồn dữ liệu"],
+      "Added": ["Thêm"],
+      "Components": ["Các thành phần"],
+      "Any color palette selected here will override the colors applied to this dashboard's individual charts": [
+        "Bất kỳ bảng màu nào được chọn ở đây sẽ ghi đè các màu được áp dụng cho các biểu đồ riêng lẻ của trang tổng quan này"
+      ],
+      "Color scheme": ["Bảng màu"],
+      "Load a template": ["Tải một mẫu"],
+      "Load a CSS template": ["Tải mẫu CSS"],
+      "Live CSS editor": ["Trình chỉnh sửa CSS trực tiếp"],
+      "You have unsaved changes.": ["Bạn có các thay đổi chưa lưu."],
+      "This dashboard is currently force refreshing; the next force refresh will be in %s.": [
+        "Trang tổng quan này hiện đang bắt buộc làm mới; lần làm mới bắt buộc tiếp theo sẽ diễn ra trong %s."
+      ],
+      "Your dashboard is too large. Please reduce the size before save it.": [
+        "Trang tổng quan của bạn quá lớn. Vui lòng giảm kích thước trước khi lưu nó."
+      ],
+      "Discard changes": ["Loại bỏ những thay đổi"],
+      "An error occurred while fetching available CSS templates": [
+        "Đã xảy ra lỗi khi tìm nạp các mẫu CSS có sẵn"
+      ],
+      "Superset dashboard": ["bảng điều khiển superset"],
+      "Check out this dashboard: ": ["Kiểm tra bảng điều khiển này:"],
+      "Refresh dashboard": ["Làm mới trang tổng quan"],
+      "Set auto-refresh interval": ["Đặt khoảng thời gian tự động làm mới"],
+      "Set filter mapping": ["Đặt ánh xạ bộ lọc"],
+      "Edit dashboard properties": ["Chỉnh sửa thuộc tính bảng điều khiển"],
+      "Edit CSS": ["Chỉnh sửa CSS"],
+      "Download as image": ["Tải xuống dưới dạng hình ảnh"],
+      "Toggle fullscreen": ["Bật chế độ toàn màn hình"],
+      "There is no chart definition associated with this component, could it have been deleted?": [
+        "Không có định nghĩa biểu đồ liên quan đến thành phần này, nó có thể bị xóa không?"
+      ],
+      "Delete this container and save to remove this message.": [
+        "Xóa vùng chứa này và lưu để xóa thông báo này."
+      ],
+      "An error has occurred": ["một lỗi đã xảy ra"],
+      "You do not have permission to edit this dashboard": [
+        "Bạn không có quyền chỉnh sửa trang tổng quan này"
+      ],
+      "A valid color scheme is required": ["Cần có bảng màu hợp lệ"],
+      "The dashboard has been saved": ["Bảng điều khiển đã được lưu"],
+      "Apply": ["Áp dụng"],
+      "Dashboard properties": ["Thuộc tính bảng điều khiển"],
+      "Basic information": ["Thông tin cơ bản"],
+      "URL slug": ["sên URL"],
+      "A readable URL for your dashboard": [
+        "URL có thể đọc được cho trang tổng quan của bạn"
+      ],
+      "Access": ["Truy cập"],
+      "Owners is a list of users who can alter the dashboard. Searchable by name or username.": [
+        "Chủ sở hữu là danh sách người dùng có thể thay đổi trang tổng quan. Có thể tìm kiếm theo tên hoặc tên người dùng."
+      ],
+      "Colors": ["Màu sắc"],
+      "Advanced": ["Trình độ cao"],
+      "JSON metadata": ["Metadata JSON"],
+      "This dashboard is not published, it will not show up in the list of dashboards. Click here to publish this dashboard.": [
+        "Trang tổng quan này không được xuất bản, nó sẽ không hiển thị trong danh sách trang tổng quan. Nhấn vào đây để xuất bản bảng điều khiển này."
+      ],
+      "This dashboard is not published which means it will not show up in the list of dashboards. Favorite it to see it there or access it by using the URL directly.": [
+        "Trang tổng quan này không được xuất bản, điều đó có nghĩa là nó sẽ không hiển thị trong danh sách trang tổng quan. Yêu thích nó để xem nó ở đó hoặc truy cập nó bằng cách sử dụng URL trực tiếp."
+      ],
+      "This dashboard is published. Click to make it a draft.": [
+        "Bảng điều khiển này được xuất bản. Nhấp để biến nó thành bản nháp."
+      ],
+      "Draft": ["Bản nháp"],
+      "Don't refresh": ["Đừng làm mới"],
+      "10 seconds": ["10 giây"],
+      "30 seconds": ["30 giây"],
+      "1 minute": ["1 phút"],
+      "5 minutes": ["5 phút"],
+      "30 minutes": ["30 phút"],
+      "1 hour": ["1 giờ"],
+      "6 hours": ["6 tiếng"],
+      "12 hours": ["12 giờ"],
+      "24 hours": ["24 giờ"],
+      "Refresh interval": ["khoảng thời gian làm mới"],
+      "Refresh frequency": ["Làm mới tần suất"],
+      "Are you sure you want to proceed?": ["Bạn có chắc muốn tiếp tục?"],
+      "Save for this session": ["Lưu cho phiên này"],
+      "You must pick a name for the new dashboard": [
+        "Bạn phải chọn tên cho trang tổng quan mới"
+      ],
+      "Save dashboard": ["Lưu trang tổng quan"],
+      "Overwrite Dashboard [%s]": ["Ghi đè Bảng điều khiển [%s]"],
+      "Save as:": ["Lưu thành:"],
+      "[dashboard name]": ["[tên bảng điều khiển]"],
+      "also copy (duplicate) charts": ["cũng sao chép (nhân bản) biểu đồ"],
+      "Filter your charts": ["Lọc biểu đồ của bạn"],
+      "Annotation layers are still loading.": ["Các lớp chú thích vẫn đang tải."],
+      "One ore more annotation layers failed loading.": [
+        "Một hoặc nhiều lớp chú thích không tải được."
+      ],
+      "Cached %s": ["Đã lưu vào bộ nhớ đệm %s"],
+      "Fetched %s": ["Đã tìm nạp %s"],
+      "Minimize chart": ["thu nhỏ biểu đồ"],
+      "Maximize chart": ["Phóng to biểu đồ"],
+      "Force refresh": ["Buộc làm mới"],
+      "Toggle chart description": ["Chuyển đổi mô tả biểu đồ"],
+      "View chart in Explore": ["Xem biểu đồ trong Khám phá"],
+      "Share chart": ["Chia sẻ biểu đồ"],
+      "Export CSV": ["Xuất CSV"],
+      "Applied Filters (%d)": ["Bộ lọc được áp dụng (%d)"],
+      "Incompatible Filters (%d)": ["Bộ lọc không tương thích (%d)"],
+      "Unset Filters (%d)": ["Bỏ đặt bộ lọc (%d)"],
+      "Search...": ["Tìm kiếm..."],
+      "No filter is selected.": ["Không có bộ lọc nào được chọn."],
+      "Editing 1 filter:": ["Chỉnh sửa 1 bộ lọc:"],
+      "Batch editing %d filters:": ["Chỉnh sửa hàng loạt %d bộ lọc:"],
+      "Configure filter scopes": ["Định cấu hình phạm vi bộ lọc"],
+      "There are no filters in this dashboard.": [
+        "Không có bộ lọc nào trong bảng điều khiển này."
+      ],
+      "Expand all": ["Mở rộng tất cả"],
+      "Collapse all": ["Thu gọn tất cả"],
+      "This markdown component has an error.": ["Thành phần đánh dấu này có lỗi."],
+      "This markdown component has an error. Please revert your recent changes.": [
+        "Thành phần đánh dấu này có lỗi. Vui lòng hoàn nguyên các thay đổi gần đây của bạn."
+      ],
+      "Delete dashboard tab?": ["Xóa tab trang tổng quan?"],
+      "Divider": ["dải phân cách"],
+      "Header": ["tiêu đề"],
+      "Row": ["Hàng ngang"],
+      "Tabs": ["tab"],
+      "Preview": ["Xem trước"],
+      "Yes, cancel": ["Có, hủy bỏ"],
+      "Keep editing": ["Tiếp tục chỉnh sửa"],
+      "Select parent filters": ["Chọn bộ lọc gốc"],
+      "Reset all": ["Đặt lại tất cả"],
+      "You have removed this filter.": ["Bạn đã xóa bộ lọc này."],
+      "Restore filter": ["Khôi phục bộ lọc"],
+      "Filter name": ["Tên bộ lọc"],
+      "Name is required": ["Tên là bắt buộc"],
+      "Datasource is required": ["Nguồn dữ liệu là bắt buộc"],
+      "Field": ["Cánh đồng"],
+      "Parent filter": ["bộ lọc gốc"],
+      "None": ["Không có"],
+      "Apply changes instantly": ["Áp dụng các thay đổi ngay lập tức"],
+      "Allow multiple selections": ["Cho phép nhiều lựa chọn"],
+      "Inverse selection": ["lựa chọn nghịch đảo"],
+      "Required": ["Yêu cầu"],
+      "Are you sure you want to cancel?": ["Bạn có chắc là muốn hủy bỏ?"],
+      "will not be saved.": ["sẽ không được lưu."],
+      "Filter configuration and scoping": ["Cấu hình bộ lọc và phạm vi"],
+      "Add filter": ["Thêm bộ lọc"],
+      "(Removed)": ["(LOẠI BỎ)"],
+      "Undo?": ["Hoàn tác?"],
+      "Scoping": ["phạm vi"],
+      "Apply to all panels": ["Áp dụng cho tất cả các bảng"],
+      "Apply to specific panels": ["Áp dụng cho các bảng cụ thể"],
+      "Only selected panels will be affected by this filter": [
+        "Chỉ các bảng được chọn mới bị ảnh hưởng bởi bộ lọc này"
+      ],
+      "All panels with this column will be affected by this filter": [
+        "Tất cả các bảng có cột này sẽ bị ảnh hưởng bởi bộ lọc này"
+      ],
+      "All filters": ["Tất cả bộ lọc"],
+      "All charts": ["Tất cả các biểu đồ"],
+      "Warning! Changing the dataset may break the chart if the metadata does not exist.": [
+        "Cảnh báo! Việc thay đổi tập dữ liệu có thể phá vỡ biểu đồ nếu metadata không tồn tại."
+      ],
+      "Changing the dataset may break the chart if the chart relies on columns or metadata that does not exist in the target dataset": [
+        "Việc thay đổi tập dữ liệu có thể làm hỏng biểu đồ nếu biểu đồ dựa trên các cột hoặc metadata không tồn tại trong tập dữ liệu đích"
+      ],
+      "dataset": ["tập dữ liệu"],
+      "Change dataset": ["Thay đổi tập dữ liệu"],
+      "Warning!": ["Cảnh báo!"],
+      "Search / Filter": ["Tìm kiếm / Lọc"],
+      "Physical (table or view)": ["Vật lý (bảng hoặc dạng xem)"],
+      "Virtual (SQL)": ["Ảo (SQL)"],
+      "SQL expression": ["biểu thức SQL"],
+      "Data type": ["Loại dữ liệu"],
+      "Datetime format": ["định dạng ngày giờ"],
+      "The pattern of timestamp format. For strings use ": [
+        "Mẫu định dạng dấu thời gian. Đối với chuỗi sử dụng"
+      ],
+      "Python datetime string pattern": ["Mẫu chuỗi ngày giờ Python"],
+      " expression which needs to adhere to the ": ["cách diễn đạt cần tuân thủ"],
+      "ISO 8601": ["ISO8601"],
+      " standard to ensure that the lexicographical ordering\n                      coincides with the chronological ordering. If the\n                      timestamp format does not adhere to the ISO 8601 standard\n                      you will need to define an expression and type for\n                      transforming the string into a date or timestamp. Note\n                      currently time zones are not supported. If time is stored\n                      in epoch format, put `epoch_s` or `epoch_ms`. If no pattern\n                      is specified we fall back to using the optional defaults on a per\n                      database/column name level via the extra parameter.": [
+        "tiêu chuẩn để đảm bảo rằng trật tự từ điển\n                      trùng với trình tự thời gian. Nếu\n                      định dạng dấu thời gian không tuân theo tiêu chuẩn ISO 8601\n                      bạn sẽ cần phải xác định một biểu thức và gõ cho\n                      chuyển đổi chuỗi thành ngày hoặc dấu thời gian. Ghi chú\n                      múi giờ hiện tại không được hỗ trợ. Nếu thời gian được lưu trữ\n                      ở định dạng epoch, đặt `epoch_s` hoặc `epoch_ms`. Nếu không có mẫu\n                      được chỉ định, chúng tôi quay lại sử dụng các giá trị mặc định tùy chọn trên mỗi\n                      cơ sở dữ liệu/tên cột thông qua tham số bổ sung."
+      ],
+      "Is dimension": ["là thứ nguyên"],
+      "Is filterable": ["có thể lọc được"],
+      "Modified columns: %s": ["Các cột đã sửa đổi: %s"],
+      "Removed columns: %s": ["Cột đã xóa: %s"],
+      "New columns added: %s": ["Đã thêm các cột mới: %s"],
+      "Metadata has been synced": ["Metadata đã được đồng bộ hóa"],
+      "Column name [%s] is duplicated": ["Tên cột [%s] bị trùng lặp"],
+      "Metric name [%s] is duplicated": ["Tên chỉ số [%s] bị trùng lặp"],
+      "Calculated column [%s] requires an expression": [
+        "Cột được tính [%s] yêu cầu một biểu thức"
+      ],
+      "Basic": ["Nền tảng"],
+      "Default URL": ["URL mặc định"],
+      "Default URL to redirect to when accessing from the dataset list page": [
+        "URL mặc định để chuyển hướng đến khi truy cập từ trang danh sách tập dữ liệu"
+      ],
+      "Autocomplete filters": ["bộ lọc tự động hoàn thành"],
+      "Whether to populate autocomplete filters options": [
+        "Có điền các tùy chọn bộ lọc tự động hoàn thành hay không"
+      ],
+      "Autocomplete query predicate": ["Biến vị ngữ truy vấn tự động hoàn thành"],
+      "When using \"Autocomplete filters\", this can be used to improve performance of the query fetching the values. Use this option to apply a predicate (WHERE clause) to the query selecting the distinct values from the table. Typically the intent would be to limit the scan by applying a relative time filter on a partitioned or indexed time-related field.": [
+        "Khi sử dụng \"Bộ lọc tự động điền\", điều này có thể được sử dụng để cải thiện hiệu suất của truy vấn tìm nạp các giá trị. Sử dụng tùy chọn này để áp dụng một vị từ (mệnh đề WHERE) cho truy vấn chọn các giá trị riêng biệt từ bảng. Thông thường, mục đích sẽ là giới hạn quá trình quét bằng cách áp dụng bộ lọc thời gian tương đối trên trường liên quan đến thời gian được phân vùng hoặc lập chỉ mục."
+      ],
+      "Extra data to specify table metadata. Currently supports certification data of the format: `{ \"certification\": { \"certified_by\": \"Data Platform Team\", \"details\": \"This table is the source of truth.\" } }`.": [
+        "Dữ liệu bổ sung để chỉ định metadata của bảng. Hiện hỗ trợ dữ liệu chứng nhận có định dạng: `{ \"certification\": { \"certified_by\": \"Nhóm nền tảng dữ liệu\", \"details\": \"Bảng này là nguồn gốc của sự thật.\" }}`."
+      ],
+      "Owners of the dataset": ["Chủ sở hữu tập dữ liệu"],
+      "Cache timeout": ["Hết thời gian chờ bộ đệm"],
+      "The duration of time in seconds before the cache is invalidated": [
+        "Khoảng thời gian tính bằng giây trước khi bộ đệm bị vô hiệu hóa"
+      ],
+      "Hours offset": ["bù giờ"],
+      "Spatial": ["không gian"],
+      "virtual": ["ảo"],
+      "Dataset name": ["tên tập dữ liệu"],
+      "When specifying SQL, the datasource acts as a view. Superset will use this statement as a subquery while grouping and filtering on the generated parent queries.": [
+        "Khi chỉ định SQL, nguồn dữ liệu hoạt động như một dạng xem. Superset sẽ sử dụng câu lệnh này làm truy vấn con trong khi nhóm và lọc trên các truy vấn gốc đã tạo."
+      ],
+      "The JSON metric or post aggregation definition.": [
+        "Số liệu JSON hoặc định nghĩa tổng hợp bài đăng."
+      ],
+      "Physical": ["Thuộc vật chất"],
+      "The pointer to a physical table (or view). Keep in mind that the chart is associated to this Superset logical table, and this logical table points the physical table referenced here.": [
+        "Con trỏ tới một bảng vật lý (hoặc dạng xem). Hãy nhớ rằng biểu đồ được liên kết với bảng logic Superset này và bảng logic này trỏ đến bảng vật lý được tham chiếu tại đây."
+      ],
+      "Click the lock to make changes.": ["Nhấp vào khóa để thực hiện thay đổi."],
+      "Click the lock to prevent further changes.": [
+        "Nhấp vào khóa để ngăn các thay đổi tiếp theo."
+      ],
+      "D3 format": ["định dạng D3"],
+      "Warning message": ["Tin nhắn cảnh báo"],
+      "Warning message to display in the metric selector": [
+        "Thông báo cảnh báo sẽ hiển thị trong bộ chọn số liệu"
+      ],
+      "Certified by": ["Được chứng nhận bởi"],
+      "Person or group that has certified this metric": [
+        "Cá nhân hoặc nhóm đã chứng nhận số liệu này"
+      ],
+      "Certification details": ["chi tiết chứng nhận"],
+      "Details of the certification": ["Chi tiết chứng nhận"],
+      "Be careful.": ["Hãy cẩn thận."],
+      "Changing these settings will affect all charts using this dataset, including charts owned by other people.": [
+        "Việc thay đổi các cài đặt này sẽ ảnh hưởng đến tất cả các biểu đồ sử dụng tập dữ liệu này, bao gồm cả các biểu đồ do người khác sở hữu."
+      ],
+      "Source": ["Nguồn"],
+      "Sync columns from source": ["Đồng bộ cột từ nguồn"],
+      "Calculated columns": ["Các cột được tính toán"],
+      "The dataset has been saved": ["Bộ dữ liệu đã được lưu"],
+      "The dataset configuration exposed here\n                affects all the charts using this dataset.\n                Be mindful that changing settings\n                here may affect other charts\n                in undesirable ways.": [
+        "Cấu hình tập dữ liệu được hiển thị tại đây\n                ảnh hưởng đến tất cả các biểu đồ sử dụng tập dữ liệu này.\n                Lưu ý rằng việc thay đổi cài đặt\n                ở đây có thể ảnh hưởng đến các biểu đồ khác\n                theo những cách không mong muốn."
+      ],
+      "Are you sure you want to save and apply changes?": [
+        "Bạn có chắc chắn muốn lưu và áp dụng các thay đổi không?"
+      ],
+      "Confirm save": ["xác nhận lưu"],
+      "Edit Dataset ": ["Chỉnh sửa tập dữ liệu"],
+      "Use legacy datasource editor": ["Sử dụng trình chỉnh sửa nguồn dữ liệu cũ"],
+      "Time range": ["phạm vi thời gian"],
+      "Time column": ["cột thời gian"],
+      "Time grain": ["hạt thời gian"],
+      "Origin": ["Nguồn gốc"],
+      "Time granularity": ["thời gian chi tiết"],
+      "A reference to the [Time] configuration, taking granularity into account": [
+        "Tham chiếu đến cấu hình [Thời gian], có tính đến mức độ chi tiết"
+      ],
+      "Group by": ["Nhóm theo"],
+      "One or many controls to group by": [
+        "Một hoặc nhiều điều khiển để nhóm theo"
+      ],
+      "One or many metrics to display": ["Một hoặc nhiều số liệu để hiển thị"],
+      "Dataset": ["tập dữ liệu"],
+      "Visualization type": ["loại trực quan"],
+      "The type of visualization to display": ["Loại trực quan hóa để hiển thị"],
+      "Fixed color": ["Màu cố định"],
+      "Use this to define a static color for all circles": [
+        "Sử dụng công cụ này để xác định màu tĩnh cho tất cả các vòng kết nối"
+      ],
+      "Right axis metric": ["Chỉ số trục phải"],
+      "Choose a metric for right axis": ["Chọn một số liệu cho trục bên phải"],
+      "Linear color scheme": ["Phối màu tuyến tính"],
+      "Color metric": ["Chỉ số màu"],
+      "A metric to use for color": ["Một số liệu để sử dụng cho màu sắc"],
+      "One or many controls to pivot as columns": [
+        "Một hoặc nhiều điều khiển để xoay dưới dạng cột"
+      ],
+      "Defines the origin where time buckets start, accepts natural dates as in `now`, `sunday` or `1970-01-01`": [
+        "Xác định nguồn gốc nơi các nhóm thời gian bắt đầu, chấp nhận các ngày tự nhiên như trong `bây giờ`, `chủ nhật` hoặc `1970-01-01`"
+      ],
+      "The time granularity for the visualization. Note that you can type and use simple natural language as in `10 seconds`, `1 day` or `56 weeks`": [
+        "Độ chi tiết của thời gian cho hình ảnh hóa. Lưu ý rằng bạn có thể nhập và sử dụng ngôn ngữ tự nhiên đơn giản như trong `10 giây`, `1 ngày` hoặc `56 tuần`"
+      ],
+      "The time column for the visualization. Note that you can define arbitrary expression that return a DATETIME column in the table. Also note that the filter below is applied against this column or expression": [
+        "Cột thời gian cho trực quan hóa. Lưu ý rằng bạn có thể xác định biểu thức tùy ý trả về cột DATETIME trong bảng. Cũng xin lưu ý rằng bộ lọc bên dưới được áp dụng cho cột hoặc biểu thức này"
+      ],
+      "The time granularity for the visualization. This applies a date transformation to alter your time column and defines a new time granularity. The options here are defined on a per database engine basis in the Superset source code.": [
+        "Độ chi tiết của thời gian cho hình ảnh hóa. Điều này áp dụng chuyển đổi ngày để thay đổi cột thời gian của bạn và xác định mức độ chi tiết của thời gian mới. Các tùy chọn ở đây được xác định trên cơ sở mỗi công cụ cơ sở dữ liệu trong mã nguồn Superset."
+      ],
+      "Last week": ["Tuần trước"],
+      "The time range for the visualization. All relative times, e.g. \"Last month\", \"Last 7 days\", \"now\", etc. are evaluated on the server using the server's local time (sans timezone). All tooltips and placeholder times are expressed in UTC (sans timezone). The timestamps are then evaluated by the database using the engine's local timezone. Note one can explicitly set the timezone per the ISO 8601 format if specifying either the start and/or end time.": [
+        "Phạm vi thời gian cho trực quan hóa. Tất cả thời gian tương đối, e.g. \"Tháng trước\", \"7 ngày qua\", \"bây giờ\", v.v. được đánh giá trên máy chủ bằng cách sử dụng giờ địa phương của máy chủ (không có múi giờ). Tất cả các chú giải công cụ và thời gian giữ chỗ được thể hiện bằng UTC (không có múi giờ). Các dấu thời gian sau đó được cơ sở dữ liệu đánh giá bằng cách sử dụng múi giờ địa phương của động cơ. Lưu ý rằng người ta có thể đặt rõ ràng múi giờ theo định dạng ISO 8601 nếu chỉ định thời gian bắt đầu và/hoặc kết thúc."
+      ],
+      "Row limit": ["giới hạn hàng"],
+      "Series limit": ["giới hạn sê-ri"],
+      "Limits the number of time series that get displayed. A sub query (or an extra phase where sub queries are not supported) is applied to limit the number of time series that get fetched and displayed. This feature is useful when grouping by high cardinality dimension(s).": [
+        "Giới hạn số chuỗi thời gian được hiển thị. Truy vấn phụ (hoặc một giai đoạn bổ sung mà truy vấn phụ không được hỗ trợ) được áp dụng để giới hạn số lượng chuỗi thời gian được tìm nạp và hiển thị. Tính năng này hữu ích khi nhóm theo (các) thứ nguyên lực lượng cao."
+      ],
+      "Sort by": ["Sắp xếp theo"],
+      "Metric used to define the top series": [
+        "Số liệu được sử dụng để xác định chuỗi hàng đầu"
+      ],
+      "Series": ["Loạt"],
+      "Defines the grouping of entities. Each series is shown as a specific color on the chart and has a legend toggle": [
+        "Định nghĩa nhóm các thực thể. Mỗi chuỗi được hiển thị dưới dạng một màu cụ thể trên biểu đồ và có chuyển đổi chú giải"
+      ],
+      "Entity": ["thực thể"],
+      "This defines the element to be plotted on the chart": [
+        "Điều này xác định phần tử được vẽ trên biểu đồ"
+      ],
+      "X Axis": ["trục X"],
+      "Metric assigned to the [X] axis": ["Chỉ số được gán cho trục [X]"],
+      "Y Axis": ["trục Y"],
+      "Metric assigned to the [Y] axis": ["Chỉ số được gán cho trục [Y]"],
+      "Bubble size": ["kích thước bong bóng"],
+      "Y Axis Format": ["Định dạng trục Y"],
+      "When `Calculation type` is set to \"Percentage change\", the Y Axis Format is forced to `.1%`": [
+        "Khi `Loại tính toán` được đặt thành \"Thay đổi phần trăm\", Định dạng Trục Y buộc phải `.1%`"
+      ],
+      "The color scheme for rendering chart": ["Bảng màu để hiển thị biểu đồ"],
+      "Color map": ["Bản đồ màu"],
+      "description": ["Sự miêu tả"],
+      "bolt": ["chớp"],
+      "Changing this control takes effect instantly": [
+        "Thay đổi kiểm soát này có hiệu lực ngay lập tức"
+      ],
+      "Customize": ["tùy chỉnh"],
+      "rows retrieved": ["các hàng được truy xuất"],
+      "Sorry, An error occurred": ["Xin lỗi, đã xảy ra lỗi"],
+      "No data": ["Không có dữ liệu"],
+      "View samples": ["Xem mẫu"],
+      "Search Metrics & Columns": ["Số liệu & cột tìm kiếm"],
+      "Showing %s of %s": ["Đang hiển thị %s trong số %s"],
+      "New chart": ["biểu đồ mới"],
+      "Edit properties": ["Chỉnh sửa thuộc tính"],
+      "View query": ["xem truy vấn"],
+      "Run in SQL Lab": ["Chạy trong Phòng thí nghiệm SQL"],
+      "Height": ["Chiều cao"],
+      "Width": ["Chiều rộng"],
+      "Export to .json": ["Xuất sang .json"],
+      "Export to .csv format": ["Xuất sang định dạng .csv"],
+      "%s - untitled": ["%s - không có tiêu đề"],
+      "Edit chart properties": ["Chỉnh sửa thuộc tính biểu đồ"],
+      "Control labeled ": ["Kiểm soát được dán nhãn"],
+      "Open Datasource tab": ["Mở tab Nguồn dữ liệu"],
+      "You do not have permission to edit this chart": [
+        "Bạn không có quyền chỉnh sửa biểu đồ này"
+      ],
+      "The description can be displayed as widget headers in the dashboard view. Supports markdown.": [
+        "Mô tả có thể được hiển thị dưới dạng tiêu đề tiện ích trong chế độ xem bảng điều khiển. Hỗ trợ đánh dấu."
+      ],
+      "Configuration": ["Cấu hình"],
+      "Duration (in seconds) of the caching timeout for this chart. Note this defaults to the dataset's timeout if undefined.": [
+        "Khoảng thời gian (tính bằng giây) của thời gian chờ lưu vào bộ nhớ đệm cho biểu đồ này. Lưu ý rằng điều này mặc định là thời gian chờ của tập dữ liệu nếu không được xác định."
+      ],
+      "A list of users who can alter the chart. Searchable by name or username.": [
+        "Danh sách người dùng có thể thay đổi biểu đồ. Có thể tìm kiếm theo tên hoặc tên người dùng."
+      ],
+      "rows": ["hàng"],
+      "Limit reached": ["Đạt tới giới hạn"],
+      "**Select** a dashboard OR **create** a new one": [
+        "**Chọn** một trang tổng quan HOẶC **tạo** một trang tổng quan mới"
+      ],
+      "Please enter a chart name": ["Vui lòng nhập tên biểu đồ"],
+      "Save chart": ["Lưu biểu đồ"],
+      "Save & go to dashboard": ["Lưu và chuyển đến trang tổng quan"],
+      "Save as new chart": ["Lưu dưới dạng biểu đồ mới"],
+      "Save (Overwrite)": ["Lưu (Ghi đè)"],
+      "Save as ...": ["Lưu thành ..."],
+      "Chart name": ["Tên biểu đồ"],
+      "Add to dashboard": ["Thêm vào bảng điều khiển"],
+      "Display configuration": ["cấu hình hiển thị"],
+      "Configure your how you overlay is displayed here.": [
+        "Định cấu hình cách lớp phủ của bạn được hiển thị tại đây."
+      ],
+      "Style": ["Phong cách"],
+      "Opacity": ["độ mờ"],
+      "Color": ["Màu sắc"],
+      "Line width": ["Chiều rộng dòng"],
+      "Layer configuration": ["Cấu hình lớp"],
+      "Configure the basics of your Annotation Layer.": [
+        "Định cấu hình thông tin cơ bản về Lớp chú thích của bạn."
+      ],
+      "Mandatory": ["Bắt buộc"],
+      "Hide layer": ["Ẩn lớp"],
+      "Choose the annotation layer type": ["Chọn loại lớp chú thích"],
+      "Annotation layer type": ["Loại lớp chú thích"],
+      "Remove": ["Di dời"],
+      "Edit annotation layer": ["Chỉnh sửa lớp chú thích"],
+      "Add annotation layer": ["Thêm lớp chú thích"],
+      "`Min` value should be numeric or empty": [
+        "Giá trị `Min` phải là số hoặc trống"
+      ],
+      "`Max` value should be numeric or empty": [
+        "Giá trị `Tối đa` phải là số hoặc trống"
+      ],
+      "Min": ["tối thiểu"],
+      "Max": ["tối đa"],
+      "Edit dataset": ["Chỉnh sửa tập dữ liệu"],
+      "View in SQL Lab": ["Xem trong Phòng thí nghiệm SQL"],
+      "More dataset related options": [
+        "Nhiều tùy chọn liên quan đến tập dữ liệu hơn"
+      ],
+      "Superset supports smart date parsing. Strings like `3 weeks ago`, `last sunday`, or `2 weeks from now` can be used.": [
+        "Superset hỗ trợ phân tích ngày thông minh. Có thể sử dụng các chuỗi như `3 tuần trước`, `chủ nhật trước` hoặc `2 tuần kể từ bây giờ`."
+      ],
+      "Default": ["Mặc định"],
+      "(optional) default value for the filter, when using the multiple option, you can use a semicolon-delimited list of options.": [
+        "(tùy chọn) giá trị mặc định cho bộ lọc, khi sử dụng nhiều tùy chọn, bạn có thể sử dụng danh sách tùy chọn được phân tách bằng dấu chấm phẩy."
+      ],
+      "Sort metric": ["Sắp xếp chỉ số"],
+      "Metric to sort the results by": ["Số liệu để sắp xếp kết quả theo"],
+      "Sort ascending": ["Sắp xếp tăng dần"],
+      "Check for sorting ascending": ["Kiểm tra sắp xếp tăng dần"],
+      "Multiple selections allowed, otherwise filter is limited to a single value": [
+        "Cho phép nhiều lựa chọn, nếu không thì bộ lọc bị giới hạn ở một giá trị"
+      ],
+      "Search all filter options": ["Tìm kiếm tất cả các tùy chọn bộ lọc"],
+      "By default, each filter loads at most 1000 choices at the initial page load. Check this box if you have more than 1000 filter values and want to enable dynamically searching that loads filter values as users type (may add stress to your database).": [
+        "Theo mặc định, mỗi bộ lọc tải tối đa 1000 lựa chọn ở lần tải trang đầu tiên. Chọn hộp này nếu bạn có hơn 1000 giá trị bộ lọc và muốn bật tính năng tìm kiếm động tải các giá trị bộ lọc khi người dùng nhập (có thể gây thêm căng thẳng cho cơ sở dữ liệu của bạn)."
+      ],
+      "User must select a value for this filter": [
+        "Người dùng phải chọn một giá trị cho bộ lọc này"
+      ],
+      "Filter configuration": ["Cấu hình bộ lọc"],
+      "Error while fetching data": ["Lỗi khi tìm nạp dữ liệu"],
+      "No results found": ["không có kết quả nào được tìm thấy"],
+      "%s option(s)": ["%s tùy chọn"],
+      "Invalid lat/long configuration.": ["Cấu hình lat/long không hợp lệ."],
+      "Reverse lat/long ": ["Đảo ngược vĩ độ/dài"],
+      "Longitude & Latitude columns": ["Cột Kinh độ & Vĩ độ"],
+      "Delimited long & lat single column": ["Cột đơn dài & lat được phân định"],
+      "Multiple formats accepted, look the geopy.points Python library for more details": [
+        "Nhiều định dạng được chấp nhận, hãy xem thư viện geopy.points Python để biết thêm chi tiết"
+      ],
+      "Geohash": ["Geohash"],
+      "textarea": ["vùng văn bản"],
+      "in modal": ["trong phương thức"],
+      "Time series columns": ["Cột chuỗi thời gian"],
+      "This visualization type is not supported.": [
+        "Loại trực quan hóa này không được hỗ trợ."
+      ],
+      "Click to change visualization type": ["Nhấp để thay đổi loại trực quan hóa"],
+      "Select a visualization type": ["Chọn một loại trực quan hóa"],
+      "Failed to verify select options: %s": [
+        "Không thể xác minh các tùy chọn đã chọn: %s"
+      ],
+      "RANGE TYPE": ["LOẠI PHẠM VI"],
+      "Actual time range": ["Khoảng thời gian thực tế"],
+      "CANCEL": ["HỦY BỎ"],
+      "APPLY": ["ÁP DỤNG"],
+      "Edit time range": ["Chỉnh sửa phạm vi thời gian"],
+      "Configure advanced time range": ["Định cấu hình phạm vi thời gian nâng cao"],
+      "START": ["BẮT ĐẦU"],
+      "END": ["KẾT THÚC"],
+      "Configure Time Range: Previous...": [
+        "Định cấu hình Khoảng thời gian: Trước đó..."
+      ],
+      "Configure Time Range: Last...": ["Cấu hình phạm vi thời gian: Cuối cùng..."],
+      "Configure custom time range": ["Định cấu hình phạm vi thời gian tùy chỉnh"],
+      "Relative quantity": ["số lượng tương đối"],
+      "Anchor to": ["Neo vào"],
+      "NOW": ["HIỆN NAY"],
+      "Date/Time": ["Ngày giờ"],
+      "Simple": ["Đơn giản"],
+      "Custom SQL": ["SQL tùy chỉnh"],
+      "No such column found. To filter on a metric, try the Custom SQL tab.": [
+        "Không tìm thấy cột như vậy. Để lọc theo số liệu, hãy thử tab SQL tùy chỉnh."
+      ],
+      "%s column(s) and metric(s)": ["%s (các) cột và (các) chỉ số"],
+      "%s column(s)": ["%s cột"],
+      "To filter on a metric, use Custom SQL tab.": [
+        "Để lọc theo số liệu, hãy sử dụng tab SQL tùy chỉnh."
+      ],
+      "%s operator(s)": ["%s toán tử"],
+      "Type a value here": ["Nhập một giá trị ở đây"],
+      "Filter value (case sensitive)": [
+        "Giá trị bộ lọc (phân biệt chữ hoa chữ thường)"
+      ],
+      "choose WHERE or HAVING...": ["chọn WHERE hoặc HAVING..."],
+      "Filters by columns": ["Lọc theo cột"],
+      "Filters by metrics": ["Bộ lọc theo số liệu"],
+      "\n                This filter was inherited from the dashboard's context.\n                It won't be saved when saving the chart.\n              ": [
+        "Bộ lọc này được kế thừa từ ngữ cảnh của trang tổng quan.\n                Nó sẽ không được lưu khi lưu biểu đồ."
+      ],
+      "%s aggregates(s)": ["%s tổng hợp"],
+      "%s saved metric(s)": ["%s số liệu đã lưu"],
+      "Saved": ["Đã lưu"],
+      "Saved metric": ["số liệu đã lưu"],
+      "column": ["cột"],
+      "aggregate": ["tổng hợp"],
+      "My metric": ["số liệu của tôi"],
+      "Add metric": ["Thêm số liệu"],
+      "Code": ["Mã số"],
+      "Markup type": ["loại đánh dấu"],
+      "Pick your favorite markup language": [
+        "Chọn ngôn ngữ đánh dấu yêu thích của bạn"
+      ],
+      "Put your code here": ["Đặt mã của bạn ở đây"],
+      "Query": ["Truy vấn"],
+      "URL": ["URL"],
+      "Templated link, it's possible to include {{ metric }} or other values coming from the controls.": [
+        "Liên kết được tạo mẫu, có thể bao gồm {{ số liệu }} hoặc các giá trị khác đến từ các điều khiển."
+      ],
+      "Time": ["Thời gian"],
+      "Time related form attributes": [
+        "Thuộc tính biểu mẫu liên quan đến thời gian"
+      ],
+      "Chart type": ["loại biểu đồ"],
+      "Chart ID": ["ID biểu đồ"],
+      "The id of the active chart": ["Id của biểu đồ đang hoạt động"],
+      "Cache Timeout (seconds)": ["Thời gian chờ của bộ đệm (giây)"],
+      "The number of seconds before expiring the cache": [
+        "Số giây trước khi hết hạn bộ đệm"
+      ],
+      "URL parameters": ["tham số URL"],
+      "Extra parameters for use in jinja templated queries": [
+        "Các tham số bổ sung để sử dụng trong các truy vấn theo khuôn mẫu jinja"
+      ],
+      "Time range endpoints": ["Điểm cuối phạm vi thời gian"],
+      "Time range endpoints (SIP-15)": ["Điểm cuối phạm vi thời gian (SIP-15)"],
+      "Annotations and layers": ["Chú thích và lớp"],
+      "Sort descending": ["Sắp xếp giảm dần"],
+      "Whether to sort descending or ascending": ["Sắp xếp giảm dần hay tăng dần"],
+      "Contribution": ["Sự đóng góp"],
+      "Compute the contribution to the total": ["Tính phần đóng góp vào tổng"],
+      "Advanced analytics": ["Phân tích nâng cao"],
+      "This section contains options that allow for advanced analytical post processing of query results": [
+        "Phần này chứa các tùy chọn cho phép xử lý bài phân tích nâng cao các kết quả truy vấn"
+      ],
+      "Rolling window": ["cửa sổ cuốn"],
+      "Rolling function": ["chức năng lăn"],
+      "Defines a rolling window function to apply, works along with the [Periods] text box": [
+        "Xác định chức năng cửa sổ cuộn để áp dụng, hoạt động cùng với hộp văn bản [Periods]"
+      ],
+      "Periods": ["Chu kỳ"],
+      "Defines the size of the rolling window function, relative to the time granularity selected": [
+        "Xác định kích thước của chức năng cửa sổ cuộn, liên quan đến độ chi tiết thời gian đã chọn"
+      ],
+      "Min periods": ["khoảng thời gian tối thiểu"],
+      "The minimum number of rolling periods required to show a value. For instance if you do a cumulative sum on 7 days you may want your \"Min Period\" to be 7, so that all data points shown are the total of 7 periods. This will hide the \"ramp up\" taking place over the first 7 periods": [
+        "Số khoảng thời gian luân phiên tối thiểu cần thiết để hiển thị một giá trị. Chẳng hạn, nếu bạn tính tổng tích lũy trong 7 ngày, bạn có thể muốn \"Khoảng thời gian tối thiểu\" của mình là 7, để tất cả các điểm dữ liệu được hiển thị là tổng của 7 khoảng thời gian. Điều này sẽ ẩn \"đoạn đường nối\" diễn ra trong 7 giai đoạn đầu tiên"
+      ],
+      "Time comparison": ["so sánh thời gian"],
+      "Time shift": ["thời gian thay đổi"],
+      "Overlay one or more timeseries from a relative time period. Expects relative time deltas in natural language (example:  24 hours, 7 days, 52 weeks, 365 days). Free text is supported.": [
+        "Xếp chồng một hoặc nhiều chuỗi thời gian từ một khoảng thời gian tương đối. Yêu cầu thời gian tương đối bằng ngôn ngữ tự nhiên (ví dụ: 24 giờ, 7 ngày, 52 tuần, 365 ngày). Văn bản miễn phí được hỗ trợ."
+      ],
+      "Calculation type": ["loại tính toán"],
+      "How to display time shifts: as individual lines; as the absolute difference between the main time series and each time shift; as the percentage change; or as the ratio between series and time shifts.": [
+        "Cách hiển thị thời gian thay đổi: dưới dạng các dòng riêng lẻ; như sự khác biệt tuyệt đối giữa chuỗi thời gian chính và mỗi lần thay đổi thời gian; khi phần trăm thay đổi; hoặc như tỷ lệ giữa chuỗi và thay đổi thời gian."
+      ],
+      "Python functions": ["Hàm Python"],
+      "Rule": ["Luật lệ"],
+      "Pandas resample rule": ["Quy tắc lấy mẫu lại gấu trúc"],
+      "Method": ["Phương pháp"],
+      "Pandas resample method": ["Phương pháp lấy mẫu lại gấu trúc"],
+      "Favorites": ["yêu thích"],
+      "Created content": ["Nội dung đã tạo"],
+      "Recent activity": ["Hoạt động gần đây"],
+      "Security & Access": ["Truy cập bảo mật"],
+      "No charts": ["Không có biểu đồ"],
+      "No dashboards": ["Không có trang tổng quan"],
+      "No favorite charts yet, go click on stars!": [
+        "Chưa có bảng xếp hạng yêu thích nào, hãy nhấp vào các ngôi sao!"
+      ],
+      "No favorite dashboards yet, go click on stars!": [
+        "Chưa có trang tổng quan yêu thích nào, hãy nhấp vào các ngôi sao!"
+      ],
+      "Profile picture provided by Gravatar": [
+        "Ảnh hồ sơ được cung cấp bởi Gravatar"
+      ],
+      "joined": ["tham gia"],
+      "id:": ["nhận dạng:"],
+      "There was an error fetching your recent activity:": [
+        "Đã xảy ra lỗi khi tìm nạp hoạt động gần đây của bạn:"
+      ],
+      "Deleted: %s": ["Đã xóa: %s"],
+      "There was an issue deleting: %s": ["Đã xảy ra sự cố khi xóa: %s"],
+      "There was an issue deleting %s: %s": ["Đã xảy ra sự cố khi xóa %s: %s"],
+      "report": ["báo cáo"],
+      "alert": ["báo động"],
+      "reports": ["báo cáo"],
+      "alerts": ["cảnh báo"],
+      "There was an issue deleting the selected %s: %s": [
+        "Đã xảy ra sự cố khi xóa %s đã chọn: %s"
+      ],
+      "Last run": ["Lần chạy cuối cùng"],
+      "Notification method": ["phương pháp thông báo"],
+      "Execution log": ["Nhật ký thực thi"],
+      "Actions": ["hành động"],
+      "Bulk select": ["chọn hàng loạt"],
+      "No %s yet": ["Chưa có %s"],
+      "Created by": ["Được tạo bởi"],
+      "An error occurred while fetching created by values: %s": [
+        "Đã xảy ra lỗi khi tìm nạp được tạo bởi các giá trị: %s"
+      ],
+      "Status": ["Trạng thái"],
+      "${AlertState.success}": ["${AlertState.success}"],
+      "${AlertState.working}": ["${AlertState.working}"],
+      "${AlertState.error}": ["${AlertState.error}"],
+      "${AlertState.noop}": ["${AlertState.noop}"],
+      "${AlertState.grace}": ["${AlertState.grace}"],
+      "Alerts & reports": ["Cảnh báo và báo cáo"],
+      "Reports": ["Báo cáo"],
+      "This action will permanently delete %s.": [
+        "Hành động này sẽ xóa vĩnh viễn %s."
+      ],
+      "Delete %s?": ["Xóa %s?"],
+      "Please confirm": ["Vui lòng xác nhận"],
+      "Are you sure you want to delete the selected %s?": [
+        "Bạn có chắc chắn muốn xóa %s đã chọn không?"
+      ],
+      "< (Smaller than)": ["< (Nhỏ hơn)"],
+      "> (Larger than)": ["> (Lớn hơn)"],
+      "<= (Smaller or equal)": ["<= (Nhỏ hơn hoặc bằng)"],
+      ">= (Larger or equal)": [">= (Lớn hơn hoặc bằng)"],
+      "== (Is equal)": ["== (Bằng nhau)"],
+      "!= (Is not equal)": ["!= (Không bằng)"],
+      "Not null": ["Có giá trị"],
+      "30 days": ["30 ngày"],
+      "60 days": ["60 ngày"],
+      "90 days": ["90 ngày"],
+      "Add notification method": ["Thêm phương thức thông báo"],
+      "Add delivery method": ["Thêm phương thức giao hàng"],
+      "Recipients are separated by \",\" or \";\"": [
+        "Người nhận được phân tách bằng dấu \",\" hoặc \";\""
+      ],
+      "Add": ["Thêm vào"],
+      "Edit ${isReport ? 'Report' : 'Alert'}": [
+        "Chỉnh sửa ${isReport? 'Báo cáo' : 'Cảnh báo'}"
+      ],
+      "Add ${isReport ? 'Report' : 'Alert'}": [
+        "Thêm ${isReport? 'Báo cáo' : 'Cảnh báo'}"
+      ],
+      "Report name": ["tên báo cáo"],
+      "Alert name": ["Tên cảnh báo"],
+      "Alert condition": ["tình trạng cảnh báo"],
+      "Trigger Alert If...": ["Kích hoạt Cảnh báo Nếu..."],
+      "Value": ["Giá trị"],
+      "Report schedule": ["lịch báo cáo"],
+      "Alert condition schedule": ["Lịch trình điều kiện cảnh báo"],
+      "Schedule settings": ["Cài đặt Lịch"],
+      "Log retention": ["Lưu giữ nhật ký"],
+      "Working timeout": ["thời gian chờ làm việc"],
+      "Time in seconds": ["Thời gian tính bằng giây"],
+      "Grace period": ["thời gian ân hạn"],
+      "Message content": ["Nội dung tin nhắn"],
+      "log": ["đăng nhập"],
+      "State": ["Tình trạng"],
+      "Scheduled at": ["dự kiến ​​tại"],
+      "Start at": ["bắt đầu lúc"],
+      "Duration": ["Khoảng thời gian"],
+      "Error message": ["Thông báo lỗi"],
+      "${alertResource?.type}": ["${alertResource?.type}"],
+      "CRON expression": ["biểu thức CRON"],
+      "Report sent": ["Đã gửi báo cáo"],
+      "Alert triggered, notification sent": [
+        "Đã kích hoạt cảnh báo, đã gửi thông báo"
+      ],
+      "Report sending": ["gửi báo cáo"],
+      "Alert running": ["Cảnh báo đang chạy"],
+      "Report failed": ["Báo cáo không thành công"],
+      "Alert failed": ["Thông báo không thành công"],
+      "Nothing triggered": ["Không có gì kích hoạt"],
+      "Alert Triggered, In Grace Period": [
+        "Đã kích hoạt cảnh báo, trong thời gian gia hạn"
+      ],
+      "${RecipientIconName.email}": ["${RecipientIconName.email}"],
+      "${RecipientIconName.slack}": ["${RecipientIconName.slack}"],
+      "annotation": ["chú thích"],
+      "There was an issue deleting the selected annotations: %s": [
+        "Đã xảy ra sự cố khi xóa các chú thích đã chọn: %s"
+      ],
+      "Edit annotation": ["Chỉnh sửa chú thích"],
+      "Delete annotation": ["Xóa chú thích"],
+      "Annotation": ["Chú thích"],
+      "No annotation yet": ["Chưa có chú thích nào"],
+      "Annotation Layer ${annotationLayerName}": [
+        "Lớp chú thích ${annotationLayerName}"
+      ],
+      "Are you sure you want to delete ${annotationCurrentlyDeleting?.short_descr}?": [
+        "Bạn có chắc chắn muốn xóa ${annotationCurrentlyDeleting?.short_descr} không?"
+      ],
+      "Delete Annotation?": ["Xóa chú thích?"],
+      "Are you sure you want to delete the selected annotations?": [
+        "Bạn có chắc chắn muốn xóa các chú thích đã chọn không?"
+      ],
+      "Add annotation": ["Thêm chú thích"],
+      "Annotation name": ["Tên chú thích"],
+      "date": ["ngày"],
+      "Additional information": ["Thông tin thêm"],
+      "Description (this can be seen in the list)": [
+        "Mô tả (điều này có thể được nhìn thấy trong danh sách)"
+      ],
+      "annotation_layer": ["annotation_layer"],
+      "Edit annotation layer properties": ["Chỉnh sửa thuộc tính lớp chú thích"],
+      "Annotation layer name": ["Tên lớp chú thích"],
+      "Annotation layers": ["lớp chú thích"],
+      "There was an issue deleting the selected layers: %s": [
+        "Đã xảy ra sự cố khi xóa các lớp đã chọn: %s"
+      ],
+      "Last modified": ["Sửa đổi lần cuối"],
+      "Created on": ["Được tạo ra"],
+      "Edit template": ["Chỉnh sửa mẫu"],
+      "Delete template": ["Xóa mẫu"],
+      "Annotation layer": ["lớp chú thích"],
+      "An error occurred while fetching dataset datasource values: %s": [
+        "Đã xảy ra lỗi khi tìm nạp các giá trị nguồn dữ liệu của tập dữ liệu: %s"
+      ],
+      "No annotation layers yet": ["Chưa có lớp chú thích nào"],
+      "This action will permanently delete the layer.": [
+        "Hành động này sẽ xóa vĩnh viễn lớp."
+      ],
+      "Delete Layer?": ["Xóa lớp?"],
+      "Are you sure you want to delete the selected layers?": [
+        "Bạn có chắc chắn muốn xóa các lớp đã chọn không?"
+      ],
+      "Are you sure you want to delete": ["Bạn có chắc chắn muốn xóa"],
+      "Last modified %s": ["Sửa đổi lần cuối %s"],
+      "The passwords for the databases below are needed in order to import them together with the charts. Please note that the \"Secure Extra\" and \"Certificate\" sections of the database configuration are not present in export files, and should be added manually after the import if they are needed.": [
+        "Cần có mật khẩu cho cơ sở dữ liệu bên dưới để nhập chúng cùng với biểu đồ. Xin lưu ý rằng các phần \"Bổ sung an toàn\" và \"Chứng chỉ\" của cấu hình cơ sở dữ liệu không có trong các tệp xuất và phải được thêm theo cách thủ công sau khi nhập nếu cần."
+      ],
+      "You are importing one or more charts that already exist. Overwriting might cause you to lose some of your work. Are you sure you want to overwrite?": [
+        "Bạn đang nhập một hoặc nhiều biểu đồ đã tồn tại. Ghi đè có thể khiến bạn mất một số công việc. Bạn có chắc chắn muốn ghi đè?"
+      ],
+      "There was an issue deleting the selected charts: %s": [
+        "Đã xảy ra sự cố khi xóa các biểu đồ đã chọn: %s"
+      ],
+      "Modified by": ["sửa đổi bởi"],
+      "Owner": ["Người sở hữu"],
+      "An error occurred while fetching chart owners values: %s": [
+        "Đã xảy ra lỗi khi tìm nạp các giá trị của chủ sở hữu biểu đồ: %s"
+      ],
+      "An error occurred while fetching chart created by values: %s": [
+        "Đã xảy ra lỗi khi tìm nạp biểu đồ được tạo bởi các giá trị: %s"
+      ],
+      "Viz type": ["loại viz"],
+      "An error occurred while fetching chart dataset values: %s": [
+        "Đã xảy ra lỗi khi tìm nạp giá trị tập dữ liệu biểu đồ: %s"
+      ],
+      "Favorite": ["Yêu thích"],
+      "Yes": ["Đúng"],
+      "No": ["KHÔNG"],
+      "Are you sure you want to delete the selected charts?": [
+        "Bạn có chắc chắn muốn xóa các biểu đồ đã chọn không?"
+      ],
+      "css_template": ["css_template"],
+      "Edit CSS template properties": ["Chỉnh sửa thuộc tính mẫu CSS"],
+      "Add CSS template": ["Thêm mẫu CSS"],
+      "CSS template name": ["Tên mẫu CSS"],
+      "css": ["css"],
+      "CSS templates": ["mẫu CSS"],
+      "There was an issue deleting the selected templates: %s": [
+        "Đã xảy ra sự cố khi xóa các mẫu đã chọn: %s"
+      ],
+      "Last modified by %s": ["Sửa đổi lần cuối bởi %s"],
+      "CSS template": ["mẫu CSS"],
+      "This action will permanently delete the template.": [
+        "Hành động này sẽ xóa vĩnh viễn mẫu."
+      ],
+      "Delete Template?": ["Xóa Mẫu?"],
+      "Are you sure you want to delete the selected templates?": [
+        "Bạn có chắc chắn muốn xóa các mẫu đã chọn không?"
+      ],
+      "The passwords for the databases below are needed in order to import them together with the dashboards. Please note that the \"Secure Extra\" and \"Certificate\" sections of the database configuration are not present in export files, and should be added manually after the import if they are needed.": [
+        "Mật khẩu cho các cơ sở dữ liệu bên dưới là cần thiết để nhập chúng cùng với bảng điều khiển. Xin lưu ý rằng các phần \"Bổ sung an toàn\" và \"Chứng chỉ\" của cấu hình cơ sở dữ liệu không có trong các tệp xuất và phải được thêm theo cách thủ công sau khi nhập nếu cần."
+      ],
+      "You are importing one or more dashboards that already exist. Overwriting might cause you to lose some of your work. Are you sure you want to overwrite?": [
+        "Bạn đang nhập một hoặc nhiều trang tổng quan đã tồn tại. Ghi đè có thể khiến bạn mất một số công việc. Bạn có chắc chắn muốn ghi đè?"
+      ],
+      "An error occurred while fetching dashboards: %s": [
+        "Đã xảy ra lỗi khi tìm nạp trang tổng quan: %s"
+      ],
+      "There was an issue deleting the selected dashboards: ": [
+        "Đã xảy ra sự cố khi xóa các trang tổng quan đã chọn:"
+      ],
+      "An error occurred while fetching dashboard owner values: %s": [
+        "Đã xảy ra lỗi khi tìm nạp các giá trị của chủ sở hữu bảng điều khiển: %s"
+      ],
+      "An error occurred while fetching dashboard created by values: %s": [
+        "Đã xảy ra lỗi khi tìm nạp trang tổng quan được tạo bởi các giá trị: %s"
+      ],
+      "Unpublished": ["chưa xuất bản"],
+      "Are you sure you want to delete the selected dashboards?": [
+        "Bạn có chắc chắn muốn xóa các trang tổng quan đã chọn không?"
+      ],
+      "Sorry, your browser does not support copying.": [
+        "Xin lỗi, trình duyệt của bạn không hỗ trợ sao chép."
+      ],
+      "SQL Copied!": ["Đã sao chép SQL!"],
+      "The passwords for the databases below are needed in order to import them. Please note that the \"Secure Extra\" and \"Certificate\" sections of the database configuration are not present in export files, and should be added manually after the import if they are needed.": [
+        "Mật khẩu cho các cơ sở dữ liệu bên dưới là cần thiết để nhập chúng. Xin lưu ý rằng các phần \"Bổ sung an toàn\" và \"Chứng chỉ\" của cấu hình cơ sở dữ liệu không có trong các tệp xuất và phải được thêm theo cách thủ công sau khi nhập nếu cần."
+      ],
+      "You are importing one or more databases that already exist. Overwriting might cause you to lose some of your work. Are you sure you want to overwrite?": [
+        "Bạn đang nhập một hoặc nhiều cơ sở dữ liệu đã tồn tại. Ghi đè có thể khiến bạn mất một số công việc. Bạn có chắc chắn muốn ghi đè?"
+      ],
+      "database": ["cơ sở dữ liệu"],
+      "An error occurred while fetching database related data: %s": [
+        "Đã xảy ra lỗi khi tìm nạp dữ liệu liên quan đến cơ sở dữ liệu: %s"
+      ],
+      "Asynchronous query execution": ["Thực hiện truy vấn không đồng bộ"],
+      "AQE": ["AQE"],
+      "Allow data manipulation language": ["Cho phép ngôn ngữ thao tác dữ liệu"],
+      "DML": ["DML"],
+      "CSV upload": ["tải lên CSV"],
+      "Delete database": ["Xóa cơ sở dữ liệu"],
+      "The database %s is linked to %s charts that appear on %s dashboards. Are you sure you want to continue? Deleting the database will break those objects.": [
+        "Cơ sở dữ liệu %s được liên kết với các biểu đồ %s xuất hiện trên trang tổng quan %s. Bạn có chắc chắn muốn tiếp tục không? Xóa cơ sở dữ liệu sẽ phá vỡ các đối tượng đó."
+      ],
+      "Delete Database?": ["Xóa cơ sở dữ liệu?"],
+      "Please enter a SQLAlchemy URI to test": [
+        "Vui lòng nhập URI SQLAlchemy để kiểm tra"
+      ],
+      "Connection looks good!": ["Kết nối có vẻ tốt!"],
+      "ERROR: Connection failed. ": ["LỖI: Kết nối không thành công."],
+      "Sorry there was an error fetching database information: %s": [
+        "Rất tiếc, đã xảy ra lỗi khi tìm nạp thông tin cơ sở dữ liệu: %s"
+      ],
+      "Edit database": ["chỉnh sửa cơ sở dữ liệu"],
+      "Add database": ["Thêm cơ sở dữ liệu"],
+      "Connection": ["Sự liên quan"],
+      "Database name": ["Tên cơ sở dữ liệu"],
+      "Name your dataset": ["Đặt tên cho tập dữ liệu của bạn"],
+      "dialect+driver://username:password@host:port/database": [
+        "phương ngữ + trình điều khiển: // tên người dùng: mật khẩu @ Máy chủ: cổng/cơ sở dữ liệu"
+      ],
+      "Test connection": ["Kiểm tra kết nối"],
+      "Refer to the ": ["Tham khảo đến"],
+      "SQLAlchemy docs": ["Tài liệu SQLAlchemy"],
+      " for more information on how to structure your URI.": [
+        "để biết thêm thông tin về cách cấu trúc URI của bạn."
+      ],
+      "Performance": ["Hiệu suất"],
+      "Chart cache timeout": ["Hết thời gian chờ của bộ đệm biểu đồ"],
+      "Operate the database in asynchronous mode, meaning that the queries are executed on remote workers as opposed to on the web server itself. This assumes that you have a Celery worker setup as well as a results backend. Refer to the installation docs for more information.": [
+        "Vận hành cơ sở dữ liệu ở chế độ không đồng bộ, nghĩa là các truy vấn được thực hiện trên nhân viên từ xa thay vì trên chính máy chủ web. Điều này giả định rằng bạn có thiết lập nhân viên Celery cũng như phần phụ trợ kết quả. Tham khảo tài liệu cài đặt để biết thêm thông tin."
+      ],
+      "SQL Lab settings": ["Cài đặt phòng thí nghiệm SQL"],
+      "Allow users to run non-SELECT statements (UPDATE, DELETE, CREATE, ...)": [
+        "Cho phép người dùng chạy các câu lệnh non-SELECT (UPDATE, DELETE, CREATE, ...)"
+      ],
+      "Allow multi schema metadata fetch": [
+        "Cho phép tìm nạp metadata nhiều schema"
+      ],
+      "CTAS schema": ["Schema CTAS"],
+      "When allowing CREATE TABLE AS option in SQL Lab, this option forces the table to be created in this schema.": [
+        "Khi cho phép tùy chọn CREATE TABLE AS trong SQL Lab, tùy chọn này buộc phải tạo bảng trong schema này."
+      ],
+      "Secure extra": ["Bảo mật bổ sung"],
+      "JSON string containing additional connection configuration.": [
+        "Chuỗi JSON chứa cấu hình kết nối bổ sung."
+      ],
+      "This is used to provide connection information for systems like Hive, Presto, and BigQuery, which do not conform to the username:password syntax normally used by SQLAlchemy.": [
+        "Điều này được sử dụng để cung cấp thông tin kết nối cho các hệ thống như Hive, Presto và BigQuery, không tuân theo cú pháp tên người dùng:mật khẩu thường được sử dụng bởi SQLAlchemy."
+      ],
+      "Optional CA_BUNDLE contents to validate HTTPS requests. Only available on certain database engines.": [
+        "Nội dung CA_BUNDLE tùy chọn để xác thực các yêu cầu HTTPS. Chỉ khả dụng trên một số công cụ cơ sở dữ liệu."
+      ],
+      "Impersonate Logged In User (Presto, Trino, Drill & Hive)": [
+        "Mạo danh người dùng đã đăng nhập (Presto, Trino, Drill & Hive)"
+      ],
+      "If Presto, Trino or Drill all the queries in SQL Lab are going to be executed as the currently logged on user who must have permission to run them. If Hive and hive.server2.enable.doAs is enabled, will run the queries as service account, but impersonate the currently logged on user via hive.server2.proxy.user property.": [
+        "Nếu Presto, Trino hoặc Drill, tất cả các truy vấn trong SQL Lab sẽ được thực thi với tư cách là người dùng hiện đang đăng nhập phải có quyền chạy chúng. Nếu Hive và hive.server2.enable.doAs được bật, thì sẽ chạy các truy vấn dưới dạng tài khoản dịch vụ, nhưng mạo danh người dùng hiện đang đăng nhập thông qua thuộc tính hive.server2.proxy.user."
+      ],
+      "Allow data upload": ["Cho phép tải lên dữ liệu"],
+      "If selected, please set the schemas allowed for data upload in Extra.": [
+        "Nếu được chọn, vui lòng đặt schema được phép tải lên dữ liệu trong Extra."
+      ],
+      "JSON string containing extra configuration elements.": [
+        "Chuỗi JSON chứa các phần tử cấu hình bổ sung."
+      ],
+      "1. The engine_params object gets unpacked into the sqlalchemy.create_engine call, while the metadata_params gets unpacked into the sqlalchemy.MetaData call.": [
+        "1. Đối tượng engine_params được giải nén vào lệnh gọi sqlalchemy.create_engine, trong khi metadata_params được giải nén vào lệnh gọi sqlalchemy.MetaData."
+      ],
+      "2. The metadata_cache_timeout is a cache timeout setting in seconds for metadata fetch of this database. Specify it as \"metadata_cache_timeout\": {\"schema_cache_timeout\": 600, \"table_cache_timeout\": 600}. If unset, cache will not be enabled for the functionality. A timeout of 0 indicates that the cache never expires.": [
+        "2. Metadata_cache_timeout là cài đặt thời gian chờ của bộ nhớ cache tính bằng giây để tìm nạp metadata của cơ sở dữ liệu này. Chỉ định nó là \"metadata_cache_timeout\": {\"schema_cache_timeout\": 600, \"table_cache_timeout\": 600}. Nếu không được đặt, bộ đệm sẽ không được bật cho chức năng này. Thời gian chờ bằng 0 cho biết bộ đệm không bao giờ hết hạn."
+      ],
+      "3. The schemas_allowed_for_file_upload is a comma separated list of schemas that CSVs are allowed to upload to. Specify it as \"schemas_allowed_for_file_upload\": [\"public\", \"csv_upload\"]. If database flavor does not support schema or any schema is allowed to be accessed, just leave the list empty.": [
+        "3. schemas_allowed_for_file_upload là danh sách các schema được phân tách bằng dấu phẩy mà CSV được phép tải lên. Chỉ định nó là \"schemas_allowed_for_file_upload\": [\"public\", \"csv_upload\"]. Nếu hương vị cơ sở dữ liệu không hỗ trợ schema hoặc bất kỳ schema nào được phép truy cập, chỉ cần để trống danh sách."
+      ],
+      "4. The version field is a string specifying this db's version. This should be used with Presto DBs so that the syntax is correct.": [
+        "4. Trường phiên bản là một chuỗi chỉ định phiên bản của db này. Điều này nên được sử dụng với Presto DB để cú pháp chính xác."
+      ],
+      "5. The allows_virtual_table_explore field is a boolean specifying whether or not the Explore button in SQL Lab results is shown.": [
+        "5. Trường allow_virtual_table_explore là một giá trị boolean chỉ định nút Khám phá trong kết quả SQL Lab có được hiển thị hay không."
+      ],
+      "Error while saving dataset: %s": ["Lỗi khi lưu tập dữ liệu: %s"],
+      "Add dataset": ["Thêm tập dữ liệu"],
+      "The passwords for the databases below are needed in order to import them together with the datasets. Please note that the \"Secure Extra\" and \"Certificate\" sections of the database configuration are not present in export files, and should be added manually after the import if they are needed.": [
+        "Cần có mật khẩu cho các cơ sở dữ liệu bên dưới để nhập chúng cùng với bộ dữ liệu. Xin lưu ý rằng các phần \"Bổ sung an toàn\" và \"Chứng chỉ\" của cấu hình cơ sở dữ liệu không có trong các tệp xuất và phải được thêm theo cách thủ công sau khi nhập nếu cần."
+      ],
+      "You are importing one or more datasets that already exist. Overwriting might cause you to lose some of your work. Are you sure you want to overwrite?": [
+        "Bạn đang nhập một hoặc nhiều bộ dữ liệu đã tồn tại. Ghi đè có thể khiến bạn mất một số công việc. Bạn có chắc chắn muốn ghi đè?"
+      ],
+      "An error occurred while fetching dataset related data": [
+        "Đã xảy ra lỗi khi tìm nạp dữ liệu liên quan đến tập dữ liệu"
+      ],
+      "An error occurred while fetching dataset related data: %s": [
+        "Đã xảy ra lỗi khi tìm nạp dữ liệu liên quan đến tập dữ liệu: %s"
+      ],
+      "Physical dataset": ["tập dữ liệu vật lý"],
+      "Virtual dataset": ["tập dữ liệu ảo"],
+      "An error occurred while fetching dataset owner values: %s": [
+        "Đã xảy ra lỗi khi tìm nạp các giá trị của chủ sở hữu tập dữ liệu: %s"
+      ],
+      "An error occurred while fetching datasets: %s": [
+        "Đã xảy ra lỗi khi tìm nạp bộ dữ liệu: %s"
+      ],
+      "An error occurred while fetching schema values: %s": [
+        "Đã xảy ra lỗi khi tìm nạp các giá trị schema: %s"
+      ],
+      "There was an issue deleting the selected datasets: %s": [
+        "Đã xảy ra sự cố khi xóa bộ dữ liệu đã chọn: %s"
+      ],
+      "The dataset %s is linked to %s charts that appear on %s dashboards. Are you sure you want to continue? Deleting the dataset will break those objects.": [
+        "Tập dữ liệu %s được liên kết với các biểu đồ %s xuất hiện trên trang tổng quan %s. Bạn có chắc chắn muốn tiếp tục không? Việc xóa tập dữ liệu sẽ phá vỡ các đối tượng đó."
+      ],
+      "Delete Dataset?": ["Xóa tập dữ liệu?"],
+      "Are you sure you want to delete the selected datasets?": [
+        "Bạn có chắc chắn muốn xóa bộ dữ liệu đã chọn không?"
+      ],
+      "0 Selected": ["0 Đã chọn"],
+      "%s Selected (Virtual)": ["%s đã chọn (Ảo)"],
+      "%s Selected (Physical)": ["%s đã chọn (Thực tế)"],
+      "%s Selected (%s Physical, %s Virtual)": ["%s được chọn (%s vật lý, %s ảo)"],
+      "There was an issue previewing the selected query. %s": [
+        "Đã xảy ra sự cố khi xem trước truy vấn đã chọn. %S"
+      ],
+      "Success": ["Thành công"],
+      "Failed": ["Thất bại"],
+      "Running": ["Đang chạy"],
+      "Offline": ["ngoại tuyến"],
+      "Scheduled": ["Lên kế hoạch"],
+      "Duration: %s": ["Thời lượng: %s"],
+      "Tab name": ["tên thẻ"],
+      "TABLES": ["CÁC BẢNG"],
+      "Rows": ["hàng"],
+      "Open query in SQL Lab": ["Mở truy vấn trong SQL Lab"],
+      "An error occurred while fetching database values: %s": [
+        "Đã xảy ra lỗi khi tìm nạp giá trị cơ sở dữ liệu: %s"
+      ],
+      "Search by query text": ["Tìm kiếm theo văn bản truy vấn"],
+      "Query preview": ["Xem trước truy vấn"],
+      "Previous": ["Trước"],
+      "Next": ["Kế tiếp"],
+      "Open in SQL Lab": ["Mở trong Phòng thí nghiệm SQL"],
+      "User query": ["truy vấn người dùng"],
+      "Executed query": ["truy vấn thực hiện"],
+      "Saved queries": ["Truy vấn đã lưu"],
+      "There was an issue previewing the selected query %s": [
+        "Đã xảy ra sự cố khi xem trước truy vấn đã chọn %s"
+      ],
+      "Link Copied!": ["Đã sao chép liên kết!"],
+      "There was an issue deleting the selected queries: %s": [
+        "Đã xảy ra sự cố khi xóa các truy vấn đã chọn: %s"
+      ],
+      "Edit query": ["Chỉnh sửa truy vấn"],
+      "Copy query URL": ["Sao chép URL truy vấn"],
+      "Delete query": ["Xóa truy vấn"],
+      "This action will permanently delete the saved query.": [
+        "Hành động này sẽ xóa vĩnh viễn truy vấn đã lưu."
+      ],
+      "Delete Query?": ["Xóa truy vấn?"],
+      "Are you sure you want to delete the selected queries?": [
+        "Bạn có chắc chắn muốn xóa các truy vấn đã chọn không?"
+      ],
+      "Query name": ["Tên truy vấn"],
+      "Edited": ["đã chỉnh sửa"],
+      "Created": ["Tạo"],
+      "Viewed": ["Đã xem"],
+      "Examples": ["ví dụ"],
+      "Mine": ["Của tôi"],
+      "Recently viewed charts, dashboards, and saved queries will appear here": [
+        "Các biểu đồ, bảng điều khiển và truy vấn đã lưu được xem gần đây sẽ xuất hiện tại đây"
+      ],
+      "Recently created charts, dashboards, and saved queries will appear here": [
+        "Các biểu đồ, bảng điều khiển và truy vấn đã lưu được tạo gần đây sẽ xuất hiện tại đây"
+      ],
+      "Recent example charts, dashboards, and saved queries will appear here": [
+        "Biểu đồ mẫu, bảng điều khiển và truy vấn đã lưu gần đây sẽ xuất hiện tại đây"
+      ],
+      "Recently edited charts, dashboards, and saved queries will appear here": [
+        "Các biểu đồ, bảng điều khiển và truy vấn đã lưu được chỉnh sửa gần đây sẽ xuất hiện ở đây"
+      ],
+      "${tableName\n                        .split('')\n                        .slice(0, tableName.length - 1)\n                        .join('')}\n                    ": [
+        "${tableName\n                        .tách ra('')\n                        .slice(0, tableName.length - 1)\n                        .tham gia('')}"
+      ],
+      "You don't have any favorites yet!": [
+        "Bạn chưa có bất kỳ mục yêu thích nào!"
+      ],
+      "SQL Lab queries": ["Truy vấn phòng thí nghiệm SQL"],
+      "${tableName}": ["${tableName}"],
+      "query": ["truy vấn"],
+      "Share": ["Chia sẻ"],
+      "Last run %s": ["Lần chạy cuối cùng %s"],
+      "Recents": ["Gần đây"],
+      "Select start and end date": ["Chọn ngày bắt đầu và ngày kết thúc"],
+      "Type or Select [%s]": ["Nhập hoặc Chọn [%s]"],
+      "Filter box": ["hộp lọc"],
+      "Filters configuration": ["Cấu hình bộ lọc"],
+      "Filter configuration for the filter box": ["Cấu hình bộ lọc cho hộp bộ lọc"],
+      "Date filter": ["bộ lọc ngày"],
+      "Whether to include a time filter": ["Có bao gồm bộ lọc thời gian hay không"],
+      "Instant filtering": ["Lọc tức thì"],
+      "Check to apply filters instantly as they change instead of displaying [Apply] button": [
+        "Chọn để áp dụng các bộ lọc ngay lập tức khi chúng thay đổi thay vì hiển thị nút [Áp dụng]"
+      ],
+      "Show SQL granularity dropdown": [
+        "Hiển thị trình đơn thả xuống mức độ chi tiết của SQL"
+      ],
+      "Check to include SQL granularity dropdown": [
+        "Kiểm tra để bao gồm trình đơn thả xuống mức độ chi tiết của SQL"
+      ],
+      "Show SQL time column": ["Hiển thị cột thời gian SQL"],
+      "Check to include time column dropdown": [
+        "Chọn để bao gồm danh sách thả xuống cột thời gian"
+      ],
+      "Show Druid granularity dropdown": [
+        "Hiển thị trình đơn thả xuống mức độ chi tiết của Druid"
+      ],
+      "Check to include Druid granularity dropdown": [
+        "Kiểm tra để bao gồm trình đơn thả xuống mức độ chi tiết của Druid"
+      ],
+      "Show Druid time origin": ["Hiển thị nguồn gốc thời gian của Druid"],
+      "Check to include time origin dropdown": [
+        "Chọn để bao gồm trình đơn thả xuống gốc thời gian"
+      ],
+      "Limit selector values": ["Giá trị bộ chọn giới hạn"],
+      "These filters apply to the values available in the dropdowns": [
+        "Các bộ lọc này áp dụng cho các giá trị có sẵn trong danh sách thả xuống"
+      ],
+      "Time-series Table": ["Bảng chuỗi thời gian"]
+    }
+  }
+}
